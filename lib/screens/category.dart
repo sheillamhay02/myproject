@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:recipe/Breakfast/LongganisaRecipe/Lunch.dart';
 import 'package:recipe/Breakfast/breakfast.dart';
 import 'package:recipe/cards/meal_grid_tile.dart';
 class CategoryPage extends StatelessWidget {
@@ -37,9 +38,14 @@ class CategoryPage extends StatelessWidget {
               'https://i.pinimg.com/474x/76/31/fe/7631febd622b6efa7531e37c691cb92c.jpg',
                   title:'Breakfast',),
             ),
-            MealGridTile(imgscr:
-            'https://i.pinimg.com/474x/52/af/e5/52afe5e533cb182eb259ad0c88861a4a.jpg',
-              title:'Lunch',),
+            GestureDetector(
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>Lunch()));
+              },
+              child: MealGridTile(imgscr:
+              'https://i.pinimg.com/474x/52/af/e5/52afe5e533cb182eb259ad0c88861a4a.jpg',
+                title:'Lunch',),
+            ),
             MealGridTile(imgscr:
             'https://i.pinimg.com/564x/54/dd/3f/54dd3f58ddb7a169ef86fc87b99212c9.jpg',
               title:'Dinner',),

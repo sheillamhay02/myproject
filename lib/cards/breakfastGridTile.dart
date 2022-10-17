@@ -6,9 +6,7 @@ class BreakfastGridTile extends StatelessWidget {
 
   BreakfastGridTile({required this.imgscr, required this.title});
 
-
   @override
-
   Widget build(BuildContext context) {
     return Stack(
       fit: StackFit.expand,
@@ -43,5 +41,4 @@ class BreakfastGridTile extends StatelessWidget {
       ],
     );
   }
-  }
-
+}
