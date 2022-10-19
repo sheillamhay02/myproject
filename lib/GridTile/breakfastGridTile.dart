@@ -4,7 +4,7 @@ class BreakfastGridTile extends StatelessWidget {
   final String imgscr;
   final String title;
 
-  BreakfastGridTile({required this.imgscr, required this.title});
+ BreakfastGridTile({required this.imgscr, required this.title});
 
   @override
   Widget build(BuildContext context) {

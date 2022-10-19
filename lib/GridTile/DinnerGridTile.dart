@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class LunchGridTile extends StatelessWidget {
+class DinnerGridTile extends StatelessWidget {
   final String imgscr;
   final String title;
 
-  LunchGridTile({required this.imgscr, required this.title});
+  DinnerGridTile({required this.imgscr, required this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +22,7 @@ class LunchGridTile extends StatelessWidget {
             width: MediaQuery.of(context).size.width / 2,
             padding: EdgeInsets.all(15),
             decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
               gradient: LinearGradient(
                   begin: Alignment.topCenter
                   ,end: Alignment.bottomCenter,

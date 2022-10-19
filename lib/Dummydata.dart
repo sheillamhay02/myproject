@@ -1,3 +1,4 @@
+import 'package:recipe/Recipedata/RecipeDetails.dart';
 import 'package:recipe/Recipedata/recipedata.dart';
 
 List<Recipe> recipedetails=[
@@ -32,7 +33,7 @@ List<Recipe> recipedetails=[
         'Usually, there is no need to add oil since it will have enough from the fats from the sausages itself but add some if needed.\n '
         'Cook until browned and sugar has caramelized.\n'
          'Transfer to a serving plate and serve with rice.',
-    timer: '10hrs and 7 mins',
+    timer: '5hours and 7 mins',
   ),
   Recipe(
       title: 'Mechado',
@@ -63,7 +64,7 @@ List<Recipe> recipedetails=[
         'Add salt and ground black pepper to taste.\n'
         'Transfer to a serving plate.\n'
         'Serve. Share and enjoy!',
-    timer: '1hr and 2 mins',
+    timer: '1hour and 2 mins',
   ),
   Recipe(
       title: 'Tocino',
@@ -87,7 +88,7 @@ List<Recipe> recipedetails=[
      ' Dont overcook because it will become too dry and tough.\n'
       'Serve with fried egg and fried rice or java rice',
 
-    timer: '1hr and 10 mins',
+    timer: '1hour and 20 mins',
     ),
   Recipe(
       title: 'Fried Chicken',
@@ -112,7 +113,7 @@ List<Recipe> recipedetails=[
             'Dip the marinated chicken one at a time into the flour mixture. Shake the chicken slightly to remove excess flour.\n'
             'Place the chicken in the heated oil and fry the chicken until golden brown.\n'
             'Serve and enjoy with your favorite dipping sauce.\n',
-        timer: '1 hr',
+        timer: '1 hour and 30 mins',
         ),
   Recipe(
       title: 'Omelette',
@@ -186,7 +187,7 @@ List<Recipe> recipedetails=[
       'Warm it in a pan with a bit of oil if desired. \n'
       'Alternatively, heat a sizzling plate and add a some butter or margarine.\n'
       'Add the Sisig and serve while still sizzling hote.\n',
-      timer: '1hr'),
+      timer: '1hour'),
   Recipe(
       title: 'Ginisang Kalabasa at Sitaw',
       imgsrc:'https://panlasangpinoy.com/wp-content/uploads/2016/02/Kalabasa-with-Sitaw-and-Daing-Recipe.jpg',
@@ -236,5 +237,103 @@ List<Recipe> recipedetails=[
           'Add the red chilies. Stir. Cook for 10 to 12 minutes.\n'
           'Transfer to a serving plate. Serve.\n'
           'Share and enjoy!',
-      timer: '1hr and 20 mins'),
+      timer: '1hour and 20 mins'),
+  Recipe(
+      title: 'Bicol Express',
+      imgsrc: 'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
+      ingredients:
+      '2 lbs. pork belly sliced into strips\n'
+      '2 cups coconut milk\n'
+      '2 cups coconut cream\n'
+      '1/2 cup shrimp paste bagoong alamang\n'
+      '4 cloves garlic crushed\n'
+      '6 pieces Thai chili pepper chopped\n'
+      '1 thumb ginger minced\n'
+      '1 piece onion chopped\n'
+      '1 pieces Serrano pepper sliced\n'
+      '1 cup water optional\n',
+      steps:
+      'Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil.\n'
+      'Remove the cover. Stir. Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water. Stir and adjust the heat to low. Cook until the sauce reduces to a quarter (around 50 minutes).\n'
+      'Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers. Continue cooking in low heat until the sauce thickens (around\n'
+      'Transfer to a serving plate and serve with warm rice.\n',
+      timer: '1 hour',
+  ),
+  Recipe(
+      title:'Pork Adobo',
+      imgsrc: 'https://panlasangpinoy.com/wp-content/uploads/2009/08/Best-Pork-Adobo-Recipe.jpg',
+      ingredients:
+      '2 lbs pork belly\n'
+      '2 tablespoons garlic minced or crushed\n'
+      '5 dried bay leaves\n'
+      '4 tablespoons vinegar\n'
+      '1/2 cup soy sauce\n'
+      '1 tablespoon peppercorn\n'
+      '2 cups water\n'
+      'Salt to taste\n',
+      steps:
+        'Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour\n'
+        'Heat the pot and put-in the marinated pork belly then cook for a few minutes\n'
+        'Pour remaining marinade including garlic.\n''Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour\n'
+        'Put-in the vinegar and simmer for 12 to 15 minutes\n'
+        'Add salt to taste\n'
+        'Serve hot. Share and enjoy!\n',
+      timer: '1 hour and 10 minutes',
+  ),
+  Recipe(
+      title: 'Ginisang Ampalaya',
+    imgsrc:'https://panlasangpinoy.com/wp-content/uploads/2009/07/Ginisang-Ampalaya-with-Eggs-360x361.jpg',
+      ingredients:
+      '2 pieces ampalaya cleaned and cut into thin slices\n'
+      '1 tbsp garlic minced\n'
+      '1/2 tsp ground black pepper\n'
+      'salt to taste\n'
+      '2 raw eggs\n'
+      '18 ounces luke warm water\n'
+      '1 tomato sliced\n'
+      '1 onion sliced\n'
+      '3 tbsp cooking oil\n',
+      steps:
+        'Place the ampalaya in a large bowl\n'
+        'Add salt and lukewarm water then leave for 5 minutes\n'
+         'Place the ampalaya in a cheesecloth then squeeze tightly until all liquid drips\n'
+        'Heat the pan and place the cooking oil\n'
+        'Saute the garlic, onion, and tomato\n'
+        'Add the ampalaya mix well with the other ingredients\n'
+        'Put-in salt and pepper to taste\n'
+         'Beat the eggs and pour over the ampalaya then let the eggs cook partially\n'
+         'Mix the egg with the other ingredients\n'
+          'Serve hot. Share and Enjoy!\n',
+      timer: '30 mins',
+  ),
+  Recipe(
+      title: 'Kare Kare',
+      imgsrc: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-para-kare-kare-1200x1200.jpg',
+      ingredients:
+        '3 lbs oxtail cut in 2 inch slices you an also use tripe or beef slices\n'
+        '1 piece small banana flower bud sliced\n'
+        '1 bundle pechay or bok choy\n'
+        '1 bundle string beans cut into 2 inch slices\n'
+        '4 pieces eggplants sliced\n'
+        '1 cup ground peanuts\n'
+        '1/2 cup peanut butter\n'
+        '1/2 cup shrimp paste\n'
+        '34 Ounces water about 1 Liter\n'
+        '1/2 cup annatto seeds soaked in a cup of water\n'
+        '1/2 cup toasted ground rice\n'
+        '1 tbsp garlic minced\n'
+        '1 piece onion chopped\n'
+        'salt and pepper\n',
+      steps:
+          'In a large pot, bring the water to a boil\n'
+          'Put in the oxtail followed by the onions and simmer for 2.5 to 3 hrs or until tender (35 minutes if using a pressure cooker)\n'
+          'Once the meat is tender, add the ground peanuts, peanut butter, and coloring (water from the annatto seed mixture) and simmer for 5 to 7 minutes\n'
+          'Add the toasted ground rice and simmer for 5 minutes\n'
+          'On a separate pan, saute the garlic then add the banana flower, eggplant, and string beans and cook for 5 minutes\n'
+          'Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)\n'
+          'Add salt and pepper to taste\n'
+          'Serve hot with shrimp paste. Enjoy!\n',
+      timer: '2 hours and 30 mins'),
 ];
+
+

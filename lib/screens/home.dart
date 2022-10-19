@@ -135,7 +135,8 @@ class Homepage extends StatelessWidget {
                 imgsrc:
                 'https://i.pinimg.com/564x/bd/07/f9/bd07f9fd2e4e9af33c4bb06fdbe1ec73.jpg',
                   cookTime: '7 mins',
-                  prepTime: '3 mins', title: '',
+                  prepTime: '3 mins',
+                title: 'Omelette',
               ),
             ),
            GestureDetector(
@@ -172,12 +173,36 @@ class Homepage extends StatelessWidget {
                  prepTime: '20 mins'
              ),
            ),
-            RecipeCard(
-                imgsrc:
-                'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
-                title: 'Bicol Express',
-                cookTime: '1 hr 10 mins',
-                prepTime: '20 mins'
+            GestureDetector(
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> RecipeDetails(
+                  title: 'Bicol Express',
+                  imgsrc: 'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
+                  ingredients:
+                  '2 lbs. pork belly sliced into strips\n'
+                      '2 cups coconut milk\n'
+                      '2 cups coconut cream\n'
+                      '1/2 cup shrimp paste bagoong alamang\n'
+                      '4 cloves garlic crushed\n'
+                      '6 pieces Thai chili pepper chopped\n'
+                      '1 thumb ginger minced\n'
+                      '1 piece onion chopped\n'
+                      '1 pieces Serrano pepper sliced\n'
+                      '1 cup water optional\n',
+                  steps:
+                  'Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil.\n'
+                      'Remove the cover. Stir. Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water. Stir and adjust the heat to low. Cook until the sauce reduces to a quarter (around 50 minutes).\n'
+                      'Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers. Continue cooking in low heat until the sauce thickens (around\n'
+                      'Transfer to a serving plate and serve with warm rice.\n',
+                  timer: '1 hour',)));
+              },
+              child: RecipeCard(
+                  imgsrc:
+                  'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
+                  title: 'Bicol Express',
+                  cookTime: '1 hr 10 mins',
+                  prepTime: '20 mins'
+              ),
             ),
             RecipeCard(
                 imgsrc:
