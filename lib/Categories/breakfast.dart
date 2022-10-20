@@ -69,7 +69,7 @@ class Breakfast extends StatelessWidget {
                     'Usually, there is no need to add oil since it will have enough from the fats from the sausages itself but add some if needed.\n '
                     'Cook until browned and sugar has caramelized.\n'
                     'Transfer to a serving plate and serve with rice.',
-                      timer: '5hours and 7 mins',)));
+                      timer: '5hours and 7 minutes',)));
                 },
                 child: BreakfastGridTile(
                     imgscr: 'https://i.pinimg.com/564x/64/cf/3f/64cf3f071a6e32ab1ba8ae984c10b863.jpg',
@@ -107,7 +107,7 @@ class Breakfast extends StatelessWidget {
                         'Add salt and ground black pepper to taste.\n'
                         'Transfer to a serving plate.\n'
                         'Serve. Share and enjoy!',
-                    timer: '1hour and 12 mins', )));
+                    timer: '1hour and 12 minutes', )));
                 },
                 child: BreakfastGridTile(
                 imgscr: 'https://i.pinimg.com/564x/a3/11/d1/a311d19d705b9015e83a545b8e196066.jpg',
@@ -138,7 +138,7 @@ class Breakfast extends StatelessWidget {
                         ' Dont overcook because it will become too dry and tough.\n'
                         'Serve with fried egg and fried rice or java rice',
 
-                    timer: '1hour and 20 mins',)));
+                    timer: '1hour and 20 minutes',)));
                 },
                 child: BreakfastGridTile(
                     imgscr: 'https://i.pinimg.com/474x/a5/73/d0/a573d064d8881a74062068a36ae3ab36.jpg',
@@ -169,7 +169,7 @@ class Breakfast extends StatelessWidget {
                       'Dip the marinated chicken one at a time into the flour mixture. Shake the chicken slightly to remove excess flour.\n'
                       'Place the chicken in the heated oil and fry the chicken until golden brown.\n'
                       'Serve and enjoy with your favorite dipping sauce.\n',
-                  timer: '1 hour and 30 mins',)));
+                  timer: '1 hour and 30 minutes',)));
               },
                 child: BreakfastGridTile(
                     imgscr: 'https://i.pinimg.com/564x/18/28/86/1828860c0b8cfabd986f9e872141120c.jpg',
@@ -200,7 +200,7 @@ class Breakfast extends StatelessWidget {
                         'Transfer to a serving plate. Top with chopped green onions.\n'
                         'Serve with sinangag and banana ketchup.\n'
                         'Share and enjoy!\n',
-                    timer: '10 mins',
+                    timer: '10 minutes',
                   ),),);
 
                 },
@@ -234,7 +234,7 @@ class Breakfast extends StatelessWidget {
                         'Make four little wells in cooked hash and crack and egg into each well.\n'
                         'Season each egg with a some salt and pepper, cover the pan with a lid, and cook until the eggs are cooked as desired. \n',
 
-                    timer: '35 mins', )));
+                    timer: '35 minutes', )));
                 },
 
                 child: BreakfastGridTile(

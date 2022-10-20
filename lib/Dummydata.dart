@@ -1,4 +1,4 @@
-import 'package:recipe/Recipedata/RecipeDetails.dart';
+
 import 'package:recipe/Recipedata/recipedata.dart';
 
 List<Recipe> recipedetails=[
@@ -33,7 +33,7 @@ List<Recipe> recipedetails=[
         'Usually, there is no need to add oil since it will have enough from the fats from the sausages itself but add some if needed.\n '
         'Cook until browned and sugar has caramelized.\n'
          'Transfer to a serving plate and serve with rice.',
-    timer: '5hours and 7 mins',
+    timer: '5hours and 7 minutes',
   ),
   Recipe(
       title: 'Mechado',
@@ -64,7 +64,7 @@ List<Recipe> recipedetails=[
         'Add salt and ground black pepper to taste.\n'
         'Transfer to a serving plate.\n'
         'Serve. Share and enjoy!',
-    timer: '1hour and 2 mins',
+    timer: '1hour and 2 minutes',
   ),
   Recipe(
       title: 'Tocino',
@@ -88,7 +88,7 @@ List<Recipe> recipedetails=[
      ' Dont overcook because it will become too dry and tough.\n'
       'Serve with fried egg and fried rice or java rice',
 
-    timer: '1hour and 20 mins',
+    timer: '1hour and 20 minutes',
     ),
   Recipe(
       title: 'Fried Chicken',
@@ -113,7 +113,7 @@ List<Recipe> recipedetails=[
             'Dip the marinated chicken one at a time into the flour mixture. Shake the chicken slightly to remove excess flour.\n'
             'Place the chicken in the heated oil and fry the chicken until golden brown.\n'
             'Serve and enjoy with your favorite dipping sauce.\n',
-        timer: '1 hour and 30 mins',
+        timer: '1 hour and 30 minutes',
         ),
   Recipe(
       title: 'Omelette',
@@ -137,7 +137,7 @@ List<Recipe> recipedetails=[
             'Transfer to a serving plate. Top with chopped green onions.\n'
             'Serve with sinangag and banana ketchup.\n'
             'Share and enjoy!\n',
-    timer: '10 mins',
+    timer: '10 minutes',
   ),
   Recipe(
       title: 'Corned Beef',
@@ -163,7 +163,7 @@ List<Recipe> recipedetails=[
           'Make four little wells in cooked hash and crack and egg into each well.\n'
       'Season each egg with a some salt and pepper, cover the pan with a lid, and cook until the eggs are cooked as desired. \n',
 
-    timer: '35 mins',
+    timer: '35 minutes',
       ),
 
   Recipe(
@@ -210,7 +210,7 @@ List<Recipe> recipedetails=[
       'Stir in the string beans.Cook for 2 minutes in medium heat.\n'
       'Add fish sauce and ground black pepper. Cook for 1 to 3 minutes more.\n'
       'Tranfer to a serving plate. Share and enjoy!\n',
-      timer: '30 mins'
+      timer: '30 minutes'
   ),
   Recipe(
       title: 'Laing',
@@ -237,7 +237,7 @@ List<Recipe> recipedetails=[
           'Add the red chilies. Stir. Cook for 10 to 12 minutes.\n'
           'Transfer to a serving plate. Serve.\n'
           'Share and enjoy!',
-      timer: '1hour and 20 mins'),
+      timer: '1hour and 20 minutes'),
   Recipe(
       title: 'Bicol Express',
       imgsrc: 'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
@@ -304,7 +304,7 @@ List<Recipe> recipedetails=[
          'Beat the eggs and pour over the ampalaya then let the eggs cook partially\n'
          'Mix the egg with the other ingredients\n'
           'Serve hot. Share and Enjoy!\n',
-      timer: '30 mins',
+      timer: '30 minutes',
   ),
   Recipe(
       title: 'Kare Kare',
@@ -333,7 +333,191 @@ List<Recipe> recipedetails=[
           'Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)\n'
           'Add salt and pepper to taste\n'
           'Serve hot with shrimp paste. Enjoy!\n',
-      timer: '2 hours and 30 mins'),
+      timer: '2 hours and 30 minutes'),
+  Recipe(
+      title: "Sinigang na Hipon",
+      imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQpTXJiPU8zuqkw88r7XCrii_DV1chRpDhw&usqp=CAU",
+      ingredients:
+              '2 pounds Shrimps\n'
+              '2 pieces Radishes orLabanos, sliced\n'
+              '1 bunch Water Spinach or Kangkong leaves\n'
+              '5-8 pieces Long String Beans or Sitaw, cut in 2 inches length\n'
+              '3 Long Green Pepper or Siling Pang-sigang, cut in half\n'
+              '2 Knorr Shrimp Broth Cubes\n'
+              '1 pack Sinigang Mix\n'
+              '2 pieces Tomatoes, quartered\n'
+              '1 medium Onion, sliced\n'
+              '1 tablespoon Fish Sauce(Patis)\n'
+              '1 teaspoon Pepper\n'
+              '6 – 8 cups water\n',
+      steps:
+      'Put together in a deep pan onion, tomato, radishes, string beans, shrimp cubes, water and sinigang mix. Bring to a boil.\n'
+      'Turn the heat down and simmer until the radishes and the string beans are cooked.\n'
+      'Add the shrimp and green pepper and cook for 5 minutes.\n'
+      'Turn the heat off and add the water spinach.\n'
+      'Serve hot with rice.',
+      timer: '1 hour'),
+  Recipe(
+      title: "Adobong Bangus",
+      imgsrc: "https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-adobong-isda.jpg",
+      ingredients:
+          '2 lbs round scad, gutted and cleaned Bangus\n'
+          '1 tablespoon minced garlic\n'
+          '4 to 5 dried bay leaves\n'
+          '2 tablespoon whole pepper corn\n'
+          '5 tablespoons of dark soy sauce\n'
+          '3 tablespoons of white vinegar\n'
+          '1 cup of water\n'
+          '2 tablespoons of salt\n',
+      steps:
+      'Rub salt onto the fish including the inner cavity\n'
+      'Heat oil in the cooking pot.\n'
+      'Put the fish in the cooking pot.\n'
+      'Pour in water and soy sauce. Boil it.\n'
+      'Add garlic, peppercorn and bay leaves. Cook it uncovered for  5-7 minutes.\n'
+      'Pour in vinegar, cover and re-boil. Cook in medium heat for 10 to 15 minutes and until the liquid reduces.\n'
+      'Serve your Fish adobo and enjoy eating.\n',
+      timer: "40 minutes"),
+  Recipe(
+      title: 'Bistek(Beef steak)',
+      imgsrc: 'https://www.foxyfolksy.com/wp-content/uploads/2019/01/bistek-640.jpg',
+      ingredients:
+      '1/3 cup lemon or calamansi juice\n'
+      '1/2 cup soy sauce\n'
+      '2 tbsp light brown sugar optional but worth a try\n'
+      '1 tsp ground pepper\n'
+      '8 cloves garlic minced\n'
+      '2 lbs beef sirloin or top round sliced thin and pounded using a mallet\n'
+      '1/4 cup canola oil\n'
+      '1 large onion sliced into rings\n',
+      steps:
+      'In a wide bowl, combine lemon juice, soy sauce, brown sugar, pepper and garlic. Whisk to combine and to dissolve the sugar. Add beef to the marinade and mix or toss to coat every piece of the beef. Let it marinate for at least 30 minutes. (overnight if you are not in a hurry) Drain the beef and set aside remaining marinade for later use.\n'
+     'Heat a wide pan over medium-high heat and add cooking oil. Add onion rings and cook for about 30 seconds or cook according to preference. Remove onions from oil and set aside.\n'
+      'Using the same pan with oil fry beef by batches for about 3-5 minutes total. Cook until lightly browned then transfer beef in a plate and set aside.\n'
+      'Pour-in remaining marinade to the same pan. Simmer over low heat for about 3 minutes stirring once. Return fried beef to the pan and gently stir to combine. Let it simmer for about 5 minutes or until sauce thickens.\n'
+       'Top with fried onions and cook for another minute. Transfer Bistek Tagalog in a serving dish and serve warm with steamed rice. Enjoy!\n',
+      timer:'55 minutes',
+  ),
+  Recipe(
+      title:'Grilled pusit',
+imgsrc: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-grilled-squid-o2-640x360.jpg',
+ingredients:
+      '1 lb medium size squid'
+      '2 large tomato, chopped'
+      '1 large onion, chopped'
+      '2 stalk green onions, chopped'
+      '1 tbsp fish sauce'
+      '1/2 cup kalamansi or lemon juice'
+      '1/2 cup soy sauce'
+      '1 tbsp sugar'
+      'ground black pepper'
+      'salt to taste'
+      '1 tbsp cooking oil',
+     steps:
+      'Clean squid by removing the head, ink bag and thin-plastic looking bone. Wash and drain well.\n'
+      'In a wide bowl, combine soy sauce, kalamansi or lemon juice, sugar and ground pepper. Marinate squid in the refrigerator for at least 2 hours.\n'
+      'In a small bowl, combine fish sauce, salt, onion, tomatoes and green onions.\n'
+      'Remove squid and drain.\n'
+      'Stuff the marinated squid with onion-tomato mixture.\n'
+      'Grill stuffed squid over hot charcoal for about 3-4 minutes on each side, regularly basting with oil.\n'
+      'Transfer in a serving plate and serve hot with dipping sauce (combination of fish sauce, kalamansi juice, chopped tomatoes minced and chopped onions). Enjoy!\n' ,
+      timer: '55 minutes'),
+  Recipe(
+      title: 'Menudo',
+      imgsrc: 'https://i.pinimg.com/736x/09/e9/d2/09e9d2fc7626fc659312c0e22772009c.jpg',
+      ingredients:
+      '2 lbs. pork shoulder sliced into small cubes\n'
+      '1 piece Knorr Pork Cube\n'
+      '4 ounces pork liver cubed\n'
+      '1 piece baking potato cubed\n'
+      '3 pieces hotdogs sliced crosswise into thin pieces\n'
+      '1 can tomato sauce 8 oz.\n'
+      '1 piece carrot cubed\n'
+      '1/2 cup raisins\n'
+      '2 pieces dried bay leaves\n'
+      '2 tablespoons soy sauce\n'
+      '1 teaspoon ground ginger\n'
+      '1 piece yellow onion chopped\n'
+      '4 cloves garlic crushed\n'
+      '3 tablespoons cooking oil\n'
+      '2 to 4 cups water\n'
+      'Salt and ground black pepper to taste\n',
+      steps:
+      'Heat oil in a pan. Once the oil gets hot, start to pan fry the potato and carrots. Continue until all sides turns light brown. Set aside.\n'
+      'Heat the remaining oil (add more if needed). Add the pork liver and then stir fry for 30 seconds. Add ground ginger. Continue to stir-fry for 2 minutes. Set aside.\n'
+      'Pour 3 tablespoons of cooking oil into a cooking pot. Once the oil turns hot, saute garlic and onion.\n'
+      'Once the onion becomes soft and translucent, add the pork. Saute until light brown.\n'
+      'Put the hotdogs into the pot. Cook for 1 minute.\n'
+      'Pour soy sauce, tomato sauce, and water into the pot.\n'
+      'Add Knorr Pork Cube. Stir.\n'
+      'Add raisins and dried bay leaves. Stir.Cover the pot and continue to boil between low to medium heat for 45 to 60 minutes, or until the pork is tender.\n'
+      'Add the pan fried potato and carrots, liver, along with salt and ground black pepper. Stir and cook for 3 minutes.\n'
+      'Transfer to a serving plate. Serve.\n'
+      'Share and enjoy!\n',
+      timer: '1 hour and 10 minutes'),
+  Recipe(
+      title: 'Leche Plan',
+      imgsrc: 'https://www.kawalingpinoy.com/wp-content/uploads/2020/04/creamy-leche-flan-3.jpg',
+      ingredients:
+      '12 pieces egg'
+      '1 cup brown or refined sugar'
+      '1 cup water'
+      '1 can condensed milk'
+      '1 pint evaporated milk'
+      '1 tablespoon vanilla',
+      steps:
+      'For the caramel sauce, combine the sugar and water in a heated pan. Stir until it becomes caramelized. Pour the caramel sauce onto the llanera or small containers'
+      'For the custard, place the 12 egg yolks, condensed milk, evaporated milk, and vanilla into a blender and blend until all the ingredients are all incorporated.'
+      'Place the custard mixture into the llanera or small containers. In a pre-heated oven at 375 degrees, bake the leche flan for about an hour. You can opt to steam your leche flan for about 20 to 30 minutes.'
+      'Once this is through, let the leche flan cool for about 15 minutes'
+      'Put the leche flan on a serving plate and top it the caramel sauce',
+      timer: '55 minutes'),
+  Recipe(
+      title: 'Buko Pandan',
+      imgsrc: 'https://www.foxyfolksy.com/wp-content/uploads/2018/12/buko-pandan-300t.jpg',
+      ingredients:
+          '3 cups coconut juice'
+          '½ pouch (12g) jelly powder (gulaman) - use green if available. Gelatin may also be used'
+          '½ cup sugar'
+          '6-8 pieces Pandan leaves - or use pandan extracts'
+          '1 can (14 oz) sweetened condensed milk'
+          '1 pack (250mL) all-purpose cream - or table cream / whipping cream'
+          '2 cups coconut meat - shredded into strips'
+          '½ cup tapioca pearls - uncooked'
+          '1 bottle (12oz) kaong (sugar palm fruit) - syrup drained and rinsed'
+          '1 bottle (12oz) nata de coco (coconut gel) - syrup drained and rinsed',
+      steps:
+            '3 cups coconut juice, ½ pouch (12g) jelly powder (gulaman), ½ cup sugar, 6-8 pieces Pandan leaves\n'
+            'In a pot, add coconut juice and dissolve the jelly powder or gulaman. Add the sugar and pandan leaves and bring it to boil while stirring constantly.\n'
+            'Once it boils, remove from heat and pour into a square pan and let cool to set. You may place it in the fridge to fasten the process. Once ready, cut the gelatin into cubes.\n'
+            '½ cup tapioca pearls\n'
+            'While waiting, cook the tapioca pearls. In a pot, bring 1 liter of water to boil. Add the small sago or tapioca pearls and cook for 15 minutes or until translucent. (Check package instructions.) Stir occasionally to prevent from sticking together.\n'
+            'Turn off heat and strain the sago pearls using a fine sieve. Rinse thoroughly until the sago or tapioca pearls are no longer hot to touch. Set aside.\n'
+            '1 can (14 oz) sweetened condensed milk, 1 pack (250mL) all-purpose cream, 2 cups coconut meat, 1 bottle (12oz) kaong (sugar palm fruit), 1 bottle (12oz) nata de coco (coconut gel)\n'
+            'In a big bowl, add the cream and sweetened condensed milk and stir until well blended.  Add the coconut strips, tapioca pearls, pandan jelly cubes, kaong and nata de coco and gently mix until well combined.\n'
+            'Cover bowl and leave it in the fridge to chill or transfer to another container if planning to freeze.\n',
+      timer:'40 minutes',
+  ),
+  Recipe(
+      title: 'Puto Bumbong',
+      imgsrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlSd0L7HJoPmgBjeGOlPav4m90NaBNmLCVKEFA8JBnZPBTQz0vHoqYT85D8lottxx5fz4&usqp=CAU',
+      ingredients:
+        '2 cups white glutinous rice'
+        '1 cup black glutinous rice (pirurutong)'
+        '1 cup muscovado or palm sugar'
+        '1 cup grated fresh coconut'
+        'margarine'
+        'water',
+      steps:
+      'In a large bowl combine both types of glutinous rice, add enough water to fully soak them and leave in a cool place for 24 hours.'
+      'Fully drain your rice then place them in a food processor or a blender, pulse to have a grainy wet consistency and add a bit of water while grinding them. You need to achieve a gritty but fine consistency similar to a moist sand.'
+      'Place the mixture in a lightly greased shallow tray, it should be no more than 2 cm in thickness.'
+          'Do not press or compact, it should be loose otherwise it will come out really hard, place in a steamer then steam for 20 minutes in really high heat or until cooked and tender.'
+      'Remove the cooked puto bumbong from the tray, slice and shape into small cylinders, place on a banana leaf lined plate then spread some margarine on top, generously sprinkle it with freshly grated coconut and some palm sugar granules then serve.',
+      timer: '50 minutes',
+  ),
+
+
 ];
 
 

@@ -196,20 +196,66 @@ class Homepage extends StatelessWidget {
                       'Transfer to a serving plate and serve with warm rice.\n',
                   timer: '1 hour',)));
               },
+              child: GestureDetector(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                    title: 'Bicol Express',
+                    imgsrc: 'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
+                    ingredients:
+                    '2 lbs. pork belly sliced into strips\n'
+                        '2 cups coconut milk\n'
+                        '2 cups coconut cream\n'
+                        '1/2 cup shrimp paste bagoong alamang\n'
+                        '4 cloves garlic crushed\n'
+                        '6 pieces Thai chili pepper chopped\n'
+                        '1 thumb ginger minced\n'
+                        '1 piece onion chopped\n'
+                        '1 pieces Serrano pepper sliced\n'
+                        '1 cup water optional\n',
+                    steps:
+                    'Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil.\n'
+                        'Remove the cover. Stir. Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water. Stir and adjust the heat to low. Cook until the sauce reduces to a quarter (around 50 minutes).\n'
+                        'Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers. Continue cooking in low heat until the sauce thickens (around\n'
+                        'Transfer to a serving plate and serve with warm rice.\n',
+                    timer: '1 hour',
+                  )));
+                },
+                child: RecipeCard(
+                    imgsrc:
+                    'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
+                    title: 'Bicol Express',
+                    cookTime: '1 hr 10 mins',
+                    prepTime: '20 mins'
+                ),
+              ),
+            ),
+            GestureDetector(
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                  title: 'Leche Plan',
+                  imgsrc: 'https://www.kawalingpinoy.com/wp-content/uploads/2020/04/creamy-leche-flan-3.jpg',
+                  ingredients:
+                  '12 pieces egg'
+                      '1 cup brown or refined sugar'
+                      '1 cup water'
+                      '1 can condensed milk'
+                      '1 pint evaporated milk'
+                      '1 tablespoon vanilla',
+                  steps:
+                  'For the caramel sauce, combine the sugar and water in a heated pan. Stir until it becomes caramelized. Pour the caramel sauce onto the llanera or small containers'
+                      'For the custard, place the 12 egg yolks, condensed milk, evaporated milk, and vanilla into a blender and blend until all the ingredients are all incorporated.'
+                      'Place the custard mixture into the llanera or small containers. In a pre-heated oven at 375 degrees, bake the leche flan for about an hour. You can opt to steam your leche flan for about 20 to 30 minutes.'
+                      'Once this is through, let the leche flan cool for about 15 minutes'
+                      'Put the leche flan on a serving plate and top it the caramel sauce',
+                  timer: '55 minutes',)));
+              },
               child: RecipeCard(
                   imgsrc:
-                  'https://thumbs.dreamstime.com/b/spicy-pork-belly-coconut-shrimp-paste-also-known-as-bicol-express-bicol-express-spicy-pork-belly-coconut-shrimp-sauce-151926959.jpg',
-                  title: 'Bicol Express',
+                  'https://www.kawalingpinoy.com/wp-content/uploads/2020/04/creamy-leche-flan-3.jpg',
+                  title: 'Leche Plan',
                   cookTime: '1 hr 10 mins',
                   prepTime: '20 mins'
               ),
-            ),
-            RecipeCard(
-                imgsrc:
-                'https://www.kawalingpinoy.com/wp-content/uploads/2020/04/creamy-leche-flan-3.jpg',
-                title: 'Leche Plan',
-                cookTime: '1 hr 10 mins',
-                prepTime: '20 mins'
             ),
 
 

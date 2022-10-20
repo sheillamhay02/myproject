@@ -64,19 +64,171 @@ class Dinner extends StatelessWidget {
                           'Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)\n'
                           'Add salt and pepper to taste\n'
                           'Serve hot with shrimp paste. Enjoy!\n',
-                          timer: '2 hours and 30 mins'),));
+                          timer: '2 hours and 30 minutes'),));
                           },
                     child: DinnerGridTile(imgscr: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-para-kare-kare-1200x1200.jpg',
                     title: ' Kare-Kare'),
                   ),
-                  DinnerGridTile(
-                imgscr: '',
-                title: 'title')
-                 ]
+                  GestureDetector(
+                   onTap: (){
+                     Navigator.push(context, MaterialPageRoute(builder: (context)=> RecipeDetails(
+                         title: "Sinigang na Hipon",
+                         imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQpTXJiPU8zuqkw88r7XCrii_DV1chRpDhw&usqp=CAU",
+                         ingredients:
+                         '2 pounds Shrimps\n'
+                             '2 pieces Radishes orLabanos, sliced\n'
+                             '1 bunch Water Spinach or Kangkong leaves\n'
+                             '5-8 pieces Long String Beans or Sitaw, cut in 2 inches length\n'
+                             '3 Long Green Pepper or Siling Pang-sigang, cut in half\n'
+                             '2 Knorr Shrimp Broth Cubes\n'
+                             '1 pack Sinigang Mix\n'
+                             '2 pieces Tomatoes, quartered\n'
+                             '1 medium Onion, sliced\n'
+                             '1 tablespoon Fish Sauce(Patis)\n'
+                             '1 teaspoon Pepper\n'
+                             '6 – 8 cups water\n',
+                         steps:
+                         'Put together in a deep pan onion, tomato, radishes, string beans, shrimp cubes, water and sinigang mix. Bring to a boil.\n'
+                             'Turn the heat down and simmer until the radishes and the string beans are cooked.\n'
+                             'Add the shrimp and green pepper and cook for 5 minutes.\n'
+                             'Turn the heat off and add the water spinach.\n'
+                             'Serve hot with rice.',
+                         timer: '1 hour')));
+                   },
+                    child: DinnerGridTile(
+                imgscr:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQpTXJiPU8zuqkw88r7XCrii_DV1chRpDhw&usqp=CAU",
+                title: 'Sinigang na Hipon'),
+                  ),
+                   GestureDetector(
+                     onTap: (){
+                       Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                           title: "Adobong Bangus",
+                           imgsrc: "https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-adobong-isda.jpg",
+                           ingredients:
+                           '2 lbs round scad, gutted and cleaned Bangus\n'
+                               '1 tablespoon minced garlic\n'
+                               '4 to 5 dried bay leaves\n'
+                               '2 tablespoon whole pepper corn\n'
+                               '5 tablespoons of dark soy sauce\n'
+                               '3 tablespoons of white vinegar\n'
+                               '1 cup of water\n'
+                               '2 tablespoons of salt\n',
+                           steps:
+                           'Rub salt onto the fish including the inner cavity\n'
+                               'Heat oil in the cooking pot.\n'
+                               'Put the fish in the cooking pot.\n'
+                               'Pour in water and soy sauce. Boil it.\n'
+                               'Add garlic, peppercorn and bay leaves. Cook it uncovered for  5-7 minutes.\n'
+                               'Pour in vinegar, cover and re-boil. Cook in medium heat for 10 to 15 minutes and until the liquid reduces.\n'
+                               'Serve your Fish adobo and enjoy eating.\n',
+                           timer: "40 minutes")));
+                     },
+                     child: DinnerGridTile(
+                         imgscr: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-adobong-isda.jpg',
+                         title: "Adobong Bangus"),
+                   ),
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                          title: 'Bistek(Beef steak)',
+                          imgsrc: 'https://www.foxyfolksy.com/wp-content/uploads/2019/01/bistek-640.jpg',
+                          ingredients:
+                          '1/3 cup lemon or calamansi juice\n'
+                              '1/2 cup soy sauce\n'
+                              '2 tbsp light brown sugar optional but worth a try\n'
+                              '1 tsp ground pepper\n'
+                              '8 cloves garlic minced\n'
+                              '2 lbs beef sirloin or top round sliced thin and pounded using a mallet\n'
+                              '1/4 cup canola oil\n'
+                              '1 large onion sliced into rings\n',
+                          steps:
+                          'In a wide bowl, combine lemon juice, soy sauce, brown sugar, pepper and garlic. Whisk to combine and to dissolve the sugar. Add beef to the marinade and mix or toss to coat every piece of the beef. Let it marinate for at least 30 minutes. (overnight if you are not in a hurry) Drain the beef and set aside remaining marinade for later use.\n'
+                              'Heat a wide pan over medium-high heat and add cooking oil. Add onion rings and cook for about 30 seconds or cook according to preference. Remove onions from oil and set aside.\n'
+                              'Using the same pan with oil fry beef by batches for about 3-5 minutes total. Cook until lightly browned then transfer beef in a plate and set aside.\n'
+                              'Pour-in remaining marinade to the same pan. Simmer over low heat for about 3 minutes stirring once. Return fried beef to the pan and gently stir to combine. Let it simmer for about 5 minutes or until sauce thickens.\n'
+                              'Top with fried onions and cook for another minute. Transfer Bistek Tagalog in a serving dish and serve warm with steamed rice. Enjoy!\n',
+                          timer:'55 minutes')));
+                    },
+                    child: DinnerGridTile(imgscr: "https://www.foxyfolksy.com/wp-content/uploads/2019/01/bistek-640.jpg",
+                        title: "Bistek (BeefSteak)"),
+                  ),
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                          title:'Grilled pusit',
+                          imgsrc: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-grilled-squid-o2-640x360.jpg',
+                          ingredients:
+                          '1 lb medium size squid'
+                              '2 large tomato, chopped'
+                              '1 large onion, chopped'
+                              '2 stalk green onions, chopped'
+                              '1 tbsp fish sauce'
+                              '1/2 cup kalamansi or lemon juice'
+                              '1/2 cup soy sauce'
+                              '1 tbsp sugar'
+                              'ground black pepper'
+                              'salt to taste'
+                              '1 tbsp cooking oil',
+                          steps:
+                          'Clean squid by removing the head, ink bag and thin-plastic looking bone. Wash and drain well.\n'
+                              'In a wide bowl, combine soy sauce, kalamansi or lemon juice, sugar and ground pepper. Marinate squid in the refrigerator for at least 2 hours.\n'
+                              'In a small bowl, combine fish sauce, salt, onion, tomatoes and green onions.\n'
+                              'Remove squid and drain.\n'
+                              'Stuff the marinated squid with onion-tomato mixture.\n'
+                              'Grill stuffed squid over hot charcoal for about 3-4 minutes on each side, regularly basting with oil.\n'
+                              'Transfer in a serving plate and serve hot with dipping sauce (combination of fish sauce, kalamansi juice, chopped tomatoes minced and chopped onions). Enjoy!\n' ,
+                          timer: '55 minutes')));
+                    },
+                    child: DinnerGridTile(
+                        imgscr: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-grilled-squid-o2-1200x913.jpg',
+                        title: 'Grilled pusit',
+                    ),
+                  ),
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                          title: 'Menudo',
+                          imgsrc: 'https://i.pinimg.com/736x/09/e9/d2/09e9d2fc7626fc659312c0e22772009c.jpg',
+                          ingredients:
+                          '2 lbs. pork shoulder sliced into small cubes\n'
+                              '1 piece Knorr Pork Cube\n'
+                              '4 ounces pork liver cubed\n'
+                              '1 piece baking potato cubed\n'
+                              '3 pieces hotdogs sliced crosswise into thin pieces\n'
+                              '1 can tomato sauce 8 oz.\n'
+                              '1 piece carrot cubed\n'
+                              '1/2 cup raisins\n'
+                              '2 pieces dried bay leaves\n'
+                              '2 tablespoons soy sauce\n'
+                              '1 teaspoon ground ginger\n'
+                              '1 piece yellow onion chopped\n'
+                              '4 cloves garlic crushed\n'
+                              '3 tablespoons cooking oil\n'
+                              '2 to 4 cups water\n'
+                              'Salt and ground black pepper to taste\n',
+                          steps:
+                          'Heat oil in a pan. Once the oil gets hot, start to pan fry the potato and carrots. Continue until all sides turns light brown. Set aside.\n'
+                              'Heat the remaining oil (add more if needed). Add the pork liver and then stir fry for 30 seconds. Add ground ginger. Continue to stir-fry for 2 minutes. Set aside.\n'
+                              'Pour 3 tablespoons of cooking oil into a cooking pot. Once the oil turns hot, saute garlic and onion.\n'
+                              'Once the onion becomes soft and translucent, add the pork. Saute until light brown.\n'
+                              'Put the hotdogs into the pot. Cook for 1 minute.\n'
+                              'Pour soy sauce, tomato sauce, and water into the pot.\n'
+                              'Add Knorr Pork Cube. Stir.\n'
+                              'Add raisins and dried bay leaves. Stir.Cover the pot and continue to boil between low to medium heat for 45 to 60 minutes, or until the pork is tender.\n'
+                              'Add the pan fried potato and carrots, liver, along with salt and ground black pepper. Stir and cook for 3 minutes.\n'
+                              'Transfer to a serving plate. Serve.\n'
+                              'Share and enjoy!\n',
+                          timer: '1 hour and 10 minutes')));
+                    },
+                    child: DinnerGridTile(
+                        imgscr: 'https://i.pinimg.com/736x/09/e9/d2/09e9d2fc7626fc659312c0e22772009c.jpg',
+                        title: 'Menudo'),
+                  )
+                  ]
+                 )
+                )
+                ]
                ),
-            ),
-          ],
-      ),
-    );
+            );
   }
 }

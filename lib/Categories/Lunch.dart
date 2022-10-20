@@ -57,7 +57,7 @@ class Lunch extends StatelessWidget {
                         'Warm it in a pan with a bit of oil if desired. \n'
                         'Alternatively, heat a sizzling plate and add a some butter or margarine.\n'
                         'Add the Sisig and serve while still sizzling hote.\n',
-                        timer: '1hr',
+                        timer: '1hour',
                     ),
                     )
                     );
@@ -126,7 +126,7 @@ class Lunch extends StatelessWidget {
                        'Add the red chilies. Stir. Cook for 10 to 12 minutes.\n'
                         'Transfer to a serving plate. Serve.\n'
                        'Share and enjoy!',
-                        timer: '1hr and 20 mins')));
+                        timer: '1hour and 20 minutes')));
                   },
                   child: LunchGridTile(
                       imgscr: 'https://i.pinimg.com/474x/06/76/f7/0676f7242745ff3299e45a61aff8c4b3.jpg',
@@ -212,7 +212,7 @@ class Lunch extends StatelessWidget {
                             'Beat the eggs and pour over the ampalaya then let the eggs cook partially\n'
                             'Mix the egg with the other ingredients\n'
                             'Serve hot. Share and Enjoy!\n',
-                        timer: '30 mins',)));
+                        timer: '30 minutes',)));
                   },
                   child: LunchGridTile(
                       imgscr: 'https://panlasangpinoy.com/wp-content/uploads/2009/07/Ginisang-Ampalaya-with-Eggs.jpg',
