@@ -40,16 +40,17 @@ class Breakfast extends StatelessWidget {
                   Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
                   title:'Longganisa',
                   imgsrc: 'https://i.pinimg.com/564x/64/cf/3f/64cf3f071a6e32ab1ba8ae984c10b863.jpg',
-                  ingredients: '1 kilogram ground pork - 20%-30% fat\n'
-                  '½ cup brown sugar - or more\n'
-                  '1 head garlic - finely chopped\n'
-                  '1 tablespoon soy sauce \n'
-                  '1000 mg Ascorbic Acid - crushed and dissolved in 1 Tbsp cold water\n'
-                  ' 1 tablespoon salt\n'
-                  ' 3 tablespoons coconut vinegar \n'
-                  '1 teaspoon ground pepper \n'
-                  '1 tablespoon paprika powder -optional\n'
-                  'sausage casing (or wax paper for skinless)\n',
+                  ingredients:
+                  '▢ 1 kilogram ground pork - 20%-30% fat\n'
+                  '▢ ½ cup brown sugar - or more\n'
+                  '▢ 1 head garlic - finely chopped\n'
+                  '▢ 1 tablespoon soy sauce \n'
+                  '▢ 1000 mg Ascorbic Acid - crushed and dissolved in 1 Tbsp cold water\n'
+                  ' ▢ 1 tablespoon salt\n'
+                  ' ▢ 3 tablespoons coconut vinegar \n'
+                  '▢ 1 teaspoon ground pepper \n'
+                  '▢ 1 tablespoon paprika powder -optional\n'
+                  '▢ sausage casing (or wax paper for skinless)\n',
 
                       steps:
                     'Put all the ingredients in a bowl, except for the casing, and mix well until fully combined.\n'
@@ -82,19 +83,19 @@ class Breakfast extends StatelessWidget {
                     title: 'Mechado',
                     imgsrc:'https://i.pinimg.com/564x/a3/11/d1/a311d19d705b9015e83a545b8e196066.jpg' ,
                     ingredients:'1 ½ lb. pork shoulder sliced into cubes\n'
-                        '1 large potato cubed\n'
-                        '1 medium red bell pepper sliced\n'
-                        '1 medium green bell pepper sliced\n'
-                        '1 cup frozen green peas\n'
-                        '1 Knorr Pork Cube\n'
-                        '1 lime or calamansi\n'
-                        '3 tablespoons soy sauce\n'
-                        '1 can 6 oz. tomato sauce\n'
-                        '1 ½ cups water\n'
-                        '5 cloves garlic crushed and chopped\n'
-                        '1 medium onion diced\n'
-                        'Salt and ground black pepper to taste\n'
-                        '3 tablespoons cooking oil' ,
+                        '▢ 1 large potato cubed\n'
+                        '▢ 1 medium red bell pepper sliced\n'
+                        '▢ 1 medium green bell pepper sliced\n'
+                        '▢ 1 cup frozen green peas\n'
+                        '▢ 1 Knorr Pork Cube\n'
+                        '▢ 1 lime or calamansi\n'
+                        '▢ 3  tablespoons soy sauce\n'
+                        '▢ 1 can 6 oz. tomato sauce\n'
+                        '▢ 1 ½ cups water\n'
+                        '▢ 5 cloves garlic crushed and chopped\n'
+                        '▢ 1 medium onion diced\n'
+                        '▢ Salt and ground black pepper to taste\n'
+                        '▢ 3 tablespoons cooking oil' ,
                     steps:
                     'Combine pork, soy sauce, and juice of 1 lime in a bowl. Mix well and let it stay for 10 minutes.\n'
                         'Heat the oil in a cooking pot.\n'
@@ -120,13 +121,13 @@ class Breakfast extends StatelessWidget {
                     title: 'Tocino',
                     imgsrc: 'https://i.pinimg.com/474x/a5/73/d0/a573d064d8881a74062068a36ae3ab36.jpg',
                     ingredients:
-                    '1/2 kilo pork shoulder or kasim slice into 1/4 inch thick\n'
-                        '1/2 cup brown sugar\n'
-                        '1/4 tsp of red food coloring or annatto powder\n'
-                        '2 Tbsp soy sauce\n'
-                        '2 cloves garlic minced\n'
-                        '1/8 cup pineapple juice optional\n'
-                        '1/2 tsp. salt\n',
+                        '▢ 1/2 kilo pork shoulder or kasim slice into 1/4 inch thick\n'
+                        '▢ 1/2 cup brown sugar\n'
+                        '▢ 1/4 tsp of red food coloring or annatto powder\n'
+                        '▢ 2 Tbsp soy sauce\n'
+                        '▢ 2 cloves garlic minced\n'
+                        '▢ 1/8 cup pineapple juice optional\n'
+                        '▢ 1/2 tsp. salt\n',
                     steps:
                     'Combine the ingredients: brown sugar, food coloring, soy sauce, garlic, pinepple juice and salt in a mixing bowl.\n'
                         'Put the sliced pork in the bowl and rub the mixture liberally on all sides of the pork.\n'
@@ -150,17 +151,17 @@ class Breakfast extends StatelessWidget {
                   title: 'Fried Chicken',
                   imgsrc: 'https://i.pinimg.com/564x/18/28/86/1828860c0b8cfabd986f9e872141120c.jpg',
                   ingredients:
-                  'Chicken thighs, skin and bone-in\n'
-                      'Egg\n'
-                      'Fish sauce\n'
-                      'All-purpose flour\n'
-                      'Cornstarch\n'
-                      'Salt\n'
-                      'Paprika (optional)\n'
-                      'Ground black pepper\n'
-                      'Garlic powder\n'
-                      'Baking powder\n'
-                      'Oil for deep frying' ,
+                      '▢ Chicken thighs, skin and bone-in\n'
+                      '▢ Egg\n'
+                      '▢ Fish sauce\n'
+                      '▢ All-purpose flour\n'
+                      '▢ Cornstarch\n'
+                      '▢ Salt\n'
+                      '▢ Paprika (optional)\n'
+                      '▢ Ground black pepper\n'
+                      '▢ Garlic powder\n'
+                      '▢ Baking powder\n'
+                      '▢ Oil for deep frying' ,
                   steps:''
                       'Beat the egg and the fish sauce together lightly in a bowl.\n'
                       'Marinate the chicken with the egg mixture for 30 minutes to 2 hours.\n'
@@ -182,14 +183,14 @@ class Breakfast extends StatelessWidget {
                     title: 'Omelette',
                     imgsrc: 'https://i.pinimg.com/564x/bd/07/f9/bd07f9fd2e4e9af33c4bb06fdbe1ec73.jpg',
                     ingredients:
-                    '6 eggs\n'
-                        '2 medium tomatoes minced\n'
-                        '1 medium yellow onion. minced\n'
-                        '3 tablespoons butter\n'
-                        '¼ teaspoon salt\n'
-                        'A pinch of ground black pepper\n'
-                        '¼ teaspoon garlic powder\n'
-                        '2 tablespoons chopped green onions\n',
+                            '▢ 6 eggs\n'
+                            '▢ 2 medium tomatoes minced\n'
+                            '▢ 1 medium yellow onion. minced\n'
+                            '▢ 3 tablespoons butter\n'
+                            '▢ ¼ teaspoon salt\n'
+                           '▢ A pinch of ground black pepper\n'
+                          '▢ ¼ teaspoon garlic powder\n'
+                          '▢ 2 tablespoons chopped green onions\n',
                     steps:
                     'Beat the eggs in a large bowl.\n'
                         ' Add the salt, ground black pepper, and garlic powder.\n'
@@ -214,14 +215,14 @@ class Breakfast extends StatelessWidget {
                     title: 'Corned Beef',
                     imgsrc: 'https://i.pinimg.com/564x/07/64/b8/0764b8ddd99a4352041397ae0a1c3e77.jpg',
                     ingredients:
-                    '4 tbsp butter divided in two\n'
-                        '1 yellow onion\n'
-                        '2 1/2 cups diced cooked corned beef\n'
-                        '2 lbs boiled potatoes\n'
-                        '2 tbsp minced chives\n'
-                        '1 tbsp minced fresh parsley\n'
-                        'salt\n'
-                        'fresh cracked black pepper\n' ,
+                       '▢ 4 tbsp butter divided in two\n'
+                        '▢ 1 yellow onion\n'
+                        '▢ 2 1/2 cups diced cooked corned beef\n'
+                        '▢ 2 lbs boiled potatoes\n'
+                        '▢ 2 tbsp minced chives\n'
+                        '▢ 1 tbsp minced fresh parsley\n'
+                        '▢ salt\n'
+                        '▢ fresh cracked black pepper\n' ,
                     steps:
                     'Dice onions, potatoes, and corned beef and set aside. \n'
                         'Preheat a large pan over medium heat and add 2 tbsp of butter to melt. Saute diced onion in butter until browned.\n'

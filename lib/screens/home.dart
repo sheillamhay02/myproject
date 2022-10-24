@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:recipe/Categories/Dessert.dart';
+import 'package:recipe/Categories/Dinner.dart';
+import 'package:recipe/Categories/Drinks.dart';
+import 'package:recipe/Categories/Lunch.dart';
+import 'package:recipe/Categories/Snack.dart';
+import 'package:recipe/Categories/breakfast.dart';
 import 'package:recipe/Recipedata/RecipeDetails.dart';
 import 'package:recipe/cards/RecipeCard.dart';
 
@@ -84,10 +90,31 @@ class Homepage extends StatelessWidget {
           child: ListView(
             scrollDirection: Axis.horizontal,
             children: [
-              MealTypeCard(title: "Breakfast", icon: Icons.breakfast_dining_outlined),
-              MealTypeCard(title: 'Lunch',icon: Icons.lunch_dining_outlined),
-              MealTypeCard(title: 'Dinner',icon: Icons.dinner_dining_outlined),
-              MealTypeCard(title: 'Dessert',icon: Icons.icecream_outlined),
+              GestureDetector(
+              onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => Breakfast()
+              )),
+              child: MealTypeCard(title: "Breakfast", icon: Icons.breakfast_dining_outlined)),
+              GestureDetector(
+                onTap: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context) => Lunch()
+                )),
+                  child: MealTypeCard(title: 'Lunch',icon: Icons.lunch_dining_outlined)),
+              GestureDetector(
+                  onTap: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context) => Dinner()
+                  )),
+                  child: MealTypeCard(title: 'Dinner',icon: Icons.dinner_dining_outlined)),
+              GestureDetector(
+                  onTap: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context) => Dessert()
+                  )),
+                  child: MealTypeCard(title: 'Dessert',icon: Icons.icecream_outlined)),
+              GestureDetector(
+                  onTap: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context) =>Snacks()
+                  )),
+                  child: MealTypeCard(title: "Snack", icon: Icons.fastfood_outlined)),
+              GestureDetector(
+                  onTap: ()=>Navigator.of(context).push(MaterialPageRoute(builder: (context) => Drinks()
+                  )),
+                  child: MealTypeCard(title: "Drinks", icon: Icons.wine_bar))
+
             ],
           ),
         ),
@@ -111,14 +138,14 @@ class Homepage extends StatelessWidget {
                   title: 'Omelette',
                   imgsrc: 'https://i.pinimg.com/564x/bd/07/f9/bd07f9fd2e4e9af33c4bb06fdbe1ec73.jpg',
                   ingredients:
-                  '6 eggs\n'
-                      '2 medium tomatoes minced\n'
-                      '1 medium yellow onion. minced\n'
-                      '3 tablespoons butter\n'
-                      '¼ teaspoon salt\n'
-                      'A pinch of ground black pepper\n'
-                      '¼ teaspoon garlic powder\n'
-                      '2 tablespoons chopped green onions\n',
+                      '▢ 6 eggs\n'
+                      '▢ 2 medium tomatoes minced\n'
+                      '▢ 1 medium yellow onion. minced\n'
+                      '▢ 3 tablespoons butter\n'
+                      '▢ ¼ teaspoon salt\n'
+                      '▢ A pinch of ground black pepper\n'
+                      '▢ ¼ teaspoon garlic powder\n'
+                      '▢ 2 tablespoons chopped green onions\n',
                   steps:
                   'Beat the eggs in a large bowl.\n'
                       ' Add the salt, ground black pepper, and garlic powder.\n'

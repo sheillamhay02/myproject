@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:recipe/Categories/Dessert.dart';
 import 'package:recipe/Categories/Dinner.dart';
+import 'package:recipe/Categories/Drinks.dart';
+import 'package:recipe/Categories/Snack.dart';
 import 'package:recipe/Categories/breakfast.dart';
 import 'package:recipe/GridTile/meal_grid_tile.dart';
 
@@ -65,12 +67,22 @@ class CategoryPage extends StatelessWidget {
               'https://i.pinimg.com/474x/09/0d/d8/090dd83d97deda822ffea3c2b9db206e.jpg',
                 title:'Dessert',),
             ),
-            MealGridTile(imgscr:
-            'https://i.pinimg.com/474x/82/85/63/82856374068371415eee4fd684e8b897.jpg',
-              title:'Snacks',),
-            MealGridTile(imgscr:
-            'https://i.pinimg.com/474x/0e/77/74/0e7774480da18b22a219321bdc3f2c08.jpg',
-              title:'Drinks',),
+            GestureDetector(
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>Snacks()));
+              },
+              child: MealGridTile(imgscr:
+              'https://i.pinimg.com/474x/82/85/63/82856374068371415eee4fd684e8b897.jpg',
+                title:'Snacks',),
+            ),
+            GestureDetector(
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>Drinks()));
+              },
+              child: MealGridTile(imgscr:
+              'https://i.pinimg.com/474x/0e/77/74/0e7774480da18b22a219321bdc3f2c08.jpg',
+                title:'Drinks',),
+            ),
           ],
         ),
         ),

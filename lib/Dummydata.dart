@@ -487,15 +487,24 @@ ingredients:
           '1 bottle (12oz) kaong (sugar palm fruit) - syrup drained and rinsed'
           '1 bottle (12oz) nata de coco (coconut gel) - syrup drained and rinsed',
       steps:
-            '3 cups coconut juice, ½ pouch (12g) jelly powder (gulaman), ½ cup sugar, 6-8 pieces Pandan leaves\n'
-            'In a pot, add coconut juice and dissolve the jelly powder or gulaman. Add the sugar and pandan leaves and bring it to boil while stirring constantly.\n'
+
+           '3 cups coconut juice, ½ pouch (12g) jelly powder (gulaman), ½ cup sugar, 6-8 pieces Pandan leaves\n'
+
+          'In a pot, add coconut juice and dissolve the jelly powder or gulaman. Add the sugar and pandan leaves and bring it to boil while stirring constantly.\n'
+
             'Once it boils, remove from heat and pour into a square pan and let cool to set. You may place it in the fridge to fasten the process. Once ready, cut the gelatin into cubes.\n'
-            '½ cup tapioca pearls\n'
-            'While waiting, cook the tapioca pearls. In a pot, bring 1 liter of water to boil. Add the small sago or tapioca pearls and cook for 15 minutes or until translucent. (Check package instructions.) Stir occasionally to prevent from sticking together.\n'
-            'Turn off heat and strain the sago pearls using a fine sieve. Rinse thoroughly until the sago or tapioca pearls are no longer hot to touch. Set aside.\n'
-            '1 can (14 oz) sweetened condensed milk, 1 pack (250mL) all-purpose cream, 2 cups coconut meat, 1 bottle (12oz) kaong (sugar palm fruit), 1 bottle (12oz) nata de coco (coconut gel)\n'
-            'In a big bowl, add the cream and sweetened condensed milk and stir until well blended.  Add the coconut strips, tapioca pearls, pandan jelly cubes, kaong and nata de coco and gently mix until well combined.\n'
-            'Cover bowl and leave it in the fridge to chill or transfer to another container if planning to freeze.\n',
+
+          '½ cup tapioca pearls\n'
+
+          'While waiting, cook the tapioca pearls. In a pot, bring 1 liter of water to boil. Add the small sago or tapioca pearls and cook for 15 minutes or until translucent. (Check package instructions.) Stir occasionally to prevent from sticking together.\n'
+
+          'Turn off heat and strain the sago pearls using a fine sieve. Rinse thoroughly until the sago or tapioca pearls are no longer hot to touch. Set aside.\n'
+
+          '1 can (14 oz) sweetened condensed milk, 1 pack (250mL) all-purpose cream, 2 cups coconut meat, 1 bottle (12oz) kaong (sugar palm fruit), 1 bottle (12oz) nata de coco (coconut gel)\n'
+
+          'In a big bowl, add the cream and sweetened condensed milk and stir until well blended.  Add the coconut strips, tapioca pearls, pandan jelly cubes, kaong and nata de coco and gently mix until well combined.\n'
+
+          'Cover bowl and leave it in the fridge to chill or transfer to another container if planning to freeze.\n',
       timer:'40 minutes',
   ),
   Recipe(
@@ -509,13 +518,235 @@ ingredients:
         'margarine'
         'water',
       steps:
-      'In a large bowl combine both types of glutinous rice, add enough water to fully soak them and leave in a cool place for 24 hours.'
-      'Fully drain your rice then place them in a food processor or a blender, pulse to have a grainy wet consistency and add a bit of water while grinding them. You need to achieve a gritty but fine consistency similar to a moist sand.'
-      'Place the mixture in a lightly greased shallow tray, it should be no more than 2 cm in thickness.'
+          'In a large bowl combine both types of glutinous rice, add enough water to fully soak them and leave in a cool place for 24 hours.'
+
+          'Fully drain your rice then place them in a food processor or a blender, pulse to have a grainy wet consistency and add a bit of water while grinding them. You need to achieve a gritty but fine consistency similar to a moist sand.'
+
+          'Place the mixture in a lightly greased shallow tray, it should be no more than 2 cm in thickness.'
+
           'Do not press or compact, it should be loose otherwise it will come out really hard, place in a steamer then steam for 20 minutes in really high heat or until cooked and tender.'
-      'Remove the cooked puto bumbong from the tray, slice and shape into small cylinders, place on a banana leaf lined plate then spread some margarine on top, generously sprinkle it with freshly grated coconut and some palm sugar granules then serve.',
+
+          'Remove the cooked puto bumbong from the tray, slice and shape into small cylinders, place on a banana leaf lined plate then spread some margarine on top, generously sprinkle it with freshly grated coconut and some palm sugar granules then serve.',
       timer: '50 minutes',
   ),
+  Recipe(
+      title: "Biko Latik",
+      imgsrc: "https://i.pinimg.com/474x/e7/be/b8/e7beb89ae178f5b74b030dafc5c760fd.jpg",
+      ingredients:
+          "4 cups glutinous rice"
+          "3- 14 oz cans coconut milk"
+          "1 ½ cup water"
+          "2 ½ cups dark brown sugar packed"
+          "¼ teaspoon kosher salt",
+        steps:
+            "Place rice in a large bowl. Cover with cool water and soak overnight. Drain and rinse rice. Drain and set aside.*"
+
+            "Preheat oven to 350° F. Generously butter an oven safe 9×13-inch casserole pan."
+
+            "Reserve ¾ cup of coconut milk. Pour remaining coconut milk and 1 ½ cups water in a large sauce pot. Set over medium heat and cook until mixture begins to simmer. Add drained rice. Stir often, making sure rice does not burn along the sides of the pot. Continue to cook over medium heat for 5-8 minutes until rice has soaked up most of the liquid."
+
+            "Reduce heat and add 1 ½ cups brown sugar and salt to rice mixture. Continue to cook, another 5-8 minutes, stirring often. Taste a small amount of rice to check it is cooked through. At this point, the mixture should be thick and sticky. Transfer cooked rice mixture into prepared pan. Spread into an even layer."
+
+             "In a small sauce pot, combine reserved coconut milk and remaining 1 cup brown sugar. Bring to a boil until sugar has dissolved. Remove from heat. Allow to cool slightly, 3-5 minutes, before gently pouring over rice mixture."
+
+            "Bake for 1 hour, until brown sugar topping has thickened and is bubbling. Allow to cool slightly before serving. The caramel topping will be very hot.",
+
+      timer: "2 hours",
+  ),
+  Recipe(
+      title: "Cassava Cake",
+      imgsrc: "https://i.pinimg.com/474x/9b/f3/07/9bf307afe286e8f1f3ece2be53440a10.jpg",
+      ingredients:
+      "900g grated cassava"
+      '3 eggs'
+      '440g caster sugar'
+      '190 ml evaporated milk'
+      '310 ml coconut milk'
+      '60 g unsalted butter, melted'
+
+      'COCONUT CARAMEL TOPPING'
+      '2 tablespoons plain flour'
+      '400 g condensed milk'
+      '80 ml coconut milk'
+      '2 egg yolks',
+       steps:
+          "1.Preheat the oven to 180ºC. Lightly grease a 22 cm ovenproof dish about 7 cm deep.\n"
+          "2. To make the cassava cake, place all of the ingredients in a bowl. Using an electric mixer, beat until well combined. Pour into the prepared dish and bake for 1 hour, or until firm in the centre.\n"
+
+          "3. Remove from the oven and allow to cool slightly.\n"
+
+          "4. Meanwhile, to make the coconut caramel topping, place the flour and half of the condensed milk in a saucepan and stir to combine. Add the coconut milk and the remaining condensed milk, and cook over low heat for 10–15 minutes, stirring constantly until thickened to a jam-like consistency. Remove from the heat. Lightly beat the egg yolks in a bowl, then stir into the condensed milk mixture until well combined.\n"
+
+          "5.Pour the topping over the cake and spread evenly. Use a kitchen blowtorch to cook the topping until slightly caramelised. Alternatively, cook under a hot preheated grill for 3–5 minutes; be careful as it will caramelise quickly. Set aside at room temperature until the topping is set and the cake is completely cool, then turn out the cake to serve.\n",
+      timer: "1 hour 20 mins"),
+  Recipe(
+      title: "Mango Graham ",
+      imgsrc: "https://i.pinimg.com/474x/0e/65/cf/0e65cffb6fdd2eb23c0d703c6ee380d9.jpg",
+      ingredients:
+      "2 cups 480 ml heavy or whipping cream, chilled"
+      "1 can condensed milk chilled"
+      "1 mango peeled and pureed"
+      "4–5 mangoes peeled and sliced"
+      "2 packs graham crackers",
+      steps:
+      "In a bowl, combine the cream and condensed milk.\n"
+      "Using a whisk beater, whip the cream mixture until the cream has doubled in size and firm peaks form.\n"
+      "Slowly fold the mango puree into the cream mixture. Set aside.\n"
+      "In a baking pan or dish, line the bottom, edge to edge, with the graham crackers.\n"
+      "Take some of the cream/mango mixture and spread some on top of the graham cracker layer. If you didn’t whip the cream, the mixture will be more liquid and the crackers may float when layering. Just continue to layer.\n"
+      "Top with some diced mangoes. You can also use sliced mangoes. Add as much mangoes as needed. If you didn’t whip the cream, the mangoes may sink rather than stay on top of the cream. Just continue to layer.\n"
+      "Set another layer of the graham crackers. Repeat layering the cream and mango slices.\n"
+      "On the last layer of cream, top with crushed graham crackers and arrange mango slices.\n"
+      "Chill for at least 4 hours before serving.",
+      timer: "1 hour and 30 mins"),
+  Recipe(
+      title: "Halo-Halo",
+      imgsrc: "https://hicaps.com.ph/wp-content/uploads/2021/08/halo-halo-1024x1024.jpg",
+      ingredients:
+            "1/2 cup gulaman cubes or sago\n"
+            "1/2 cup sweetened beans (garbanzo, red mung, and/or white beans)\n"
+            "1/2 cup Nata de coco, drained well\n"
+            "1/2 cup Kaong, drained well\n"
+            "1/2 cup sweetened saba bananas\n"
+            "1/2 cup sweetened jackfruit strips\n"
+            "1/4 cup sweetened macapuno\n"
+            "1/2 cup ube halaya\n"
+            "shaved ice\n"
+            "1 cup evaporated milk\n"
+            "1 cup leche flan\n"
+            "4 scoops ice cream (mango, ube, or vanilla)\n",
+      steps:
+          "Prepare the gulaman according to package directions. Use less water than called for to yield a firmer texture.\n"
+          "Prepare the ingredients from scratch or use bottled halo-halo ingredients.\n"
+          "In a tall glass, add about a teaspoon each of desired add-ins to about 1/3 full.\n"
+          "Pack the glass with shaved ice.\n"
+          "Drizzle evaporated milk over the ice.\n"
+          "Top the ice with leche flan and scoop of ice cream.\n"
+          "Garnish with strips of macapuno and sprinkle with pinipig, if desired.\n"
+          "Serve immediately.\n",
+      timer: "10 minutes"),
+  Recipe(
+      title: "Egg Pie",
+      imgsrc: "https://i.pinimg.com/474x/f3/3d/ff/f33dff61bdfd9172a57fcf317ebd63dc.jpg",
+      ingredients:
+        "PIE CRUST"
+        "1 ¼ cups flour"
+        "¼ block (½ stick/ 2oz./ 57g.) butter - cut into small cubes"
+        "1 teaspoon sugar"
+        "1 teaspoon salt"
+        "2-4 tablespoons ice water"
+        "FILLING"
+        "3 large eggs"
+        "1 large egg - white and yolk separated"
+        "6 fluid ounces all-purpose cream or heavy-cream "
+        "6 fluid ounces full-fat milk or evaporated milk"
+        "1-1 ½ cup sweetened condensed milk - depending on how sweet you like it"
+        "2 teaspoons vanilla extract",
+      steps:
+      "In a mixing bowl mix together the flour, sugar, and salt. Cut in butter using the mixer by pulsing until mixture resembles coarse meal, with a few pea-size pieces of butter remaining. Add water a tablespoon at a time, pulsing until dough is crumbly but holds together when pressed. Press the dough together to form a ball.\n"
+      "Place the pie dough on a floured surface or on a rolling mat and roll it out thinly to a 14-inch round sheet. Gently fold the round dough sheet in half and then in a quarter. Place the dough on a 9-inch pie form with the pointed part exactly at the middle. Unfold the pie dough and gently fit dough into bottom and sides of the plate without tearing it. Using kitchen shears, trim dough to a 1-inch overhang; fold under, and press gently to seal. Crimp edges if desired. Refrigerate 30 minutes to an hour.\n"
+      "Preheat oven to 350°F/170°C."
+      "In a large mixing bowl, combine and whisk the 3 eggs and the separated egg yolk. Gradually add the condensed milk while whisking. Add the vanilla extract and continue whisking until all ingredients are well combined. Add the evaporated milk and all-purpose cream and mix well with other ingredients.\n"
+
+      "In a separate bowl, beat the egg white using an electric mixer until it forms soft peaks. Fold the beaten egg white into the mixture. (The beaten egg white will give the top of the egg pie a brown color after baking.)\n"
+      "Pour the filling on the refrigerated pie crust and bake on the lowest rack for 15 minutes at 350°F/170°C then lower the heat to 325°F/160°C and continue baking for 30-40 minutes or until the toothpick inserted in the filling comes out clean.\n",
+      timer: "1 hour and 15 minutes"),
+  Recipe(
+      title: "Coffee Jelly",
+      imgsrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3jPoi1zBBv2vWTTku1b3wKT5riswwlvwUw&usqp=CAU",
+      ingredients:
+      "2 tbsp instant coffee"
+      "2 packs unflavored gelatin"
+      "5 cup water"
+      "¾ cup sugar"
+      "250 ml all-purpose cream"
+      "1 cup condensed milk"
+      "1 cup evaporated milk",
+      steps:
+      "In a pot, put the water and unflavored gelatin. Stir to dissolve over medium heat."
+      "Add-in sugar and instant coffee, stir well. (Please follow the instruction on the package of gelatin brand your going to use)."
+      "Pour into a square container or baking dish. Let it cool."
+      "Cover and refrigerate until it completely set. Cut into 1 inch cube."
+      "In a bowl combine all-purpose cream, condensed milk and evaporated milk. Stir until well blended."
+      "Add coffee jelly into the mixture. Mix well."
+      "Then chill in the refrigerator and serve.",
+      timer: "2 hours and 18 minutes "),
+  Recipe(
+      title: "Empanada ",
+      imgsrc: "https://i.pinimg.com/474x/4e/e7/88/4ee7885aad137c50a38961003681bc2d.jpg",
+      ingredients:
+      "Filling"
+          "▢ 20 ml (1 tablespoon) oil"
+          "▢ 1 white onion finely chopped"
+          "▢ 2 cloves garlic minced"
+          "▢ 500 grams pork mince lean"
+          "▢ 1 carrot finely diced"
+          "▢ 1 small potato finely diced"
+          "▢ 45 grams (¼ cup) sultanas"
+          "▢ 75 grams (½ cup) frozen baby peas"
+          "▢ 40 mls (2 tablespoons) soy sauce"
+          "▢ 40 mls (2 tablespoons) oyster sauce"
+          "▢ 2 teaspoons sugar"
+          "▢ ½ teaspoon white pepper"
+          "▢ 65 mls (¼ cup) water",
+      steps:
+      "Filling"
+      "In a large non stick pan, over a medium heat, heat oil and sautee onions and garlic until soft.\n"
+      "Add pork mince and cook for a few minutes until it starts to brown.\n"
+      "Stir in carrot and potato and continue cooking for a few more minutes.\n"
+      "Add peas, sultanas, soy sauce, oyster sauce, sugar, white pepper and water. Stir well.\n"
+      "Continue to cook the mixture over a low heat, stirring so the mixture does not burn, until liquid has evaporated.\n"
+      "Cover and place empanada filling to the side to cool while making the pastry. If it is a hot day, I suggest you put the filling in the fridge once it has cooled slightly.\n"
+      "Pastry"
+      "Place flour, sugar, baking powder and salt in a large bowl, whisk together.\n"
+      "Add lard to the flour mixture. With the tips of your fingers rub (see notes) the lard into the flour mixture.\n"
+      "Whisk water, egg and vinegar together and add to flour mixture.\n"
+      "Mix until combined and then turn out on to a lightly floured bench.\n"
+      "Knead until mixture forms a smooth dough. Adding a little more flour if too sticky to handle.\n"
+      "Shape into a flatish ball and wrap in plastic. Place in the fridge for 20 minutes to rest.\n"
+      "Assembly and Cooking\n"
+      "Divide dough into 18 round balls, and cover with some plastic wrap to avoid them drying out while assembling.\n"
+      "On a floured bench, roll out a dough ball with a rolling pin, until around ½ centimetre thick.\n"
+      "Place 2 tablespoons of empanada filling in the centre of the rolled out dough.\n"
+      "Fold the dough in half over the filling, then seal the empanada but pleating* the edges and crimping as you go.\n"
+      "You can see how I do it on Instagram here.\n"
+      "Continue with the remainder of the dough and filling. Keeping the empanadas covered as you go so they don’t dry out.\n"
+      "Place enough vegetable oil in a wok, which would be high enough to cover the empanadas. Heat oil until it reaches 180°C (350°F). Cook a few empanada at a time (don’t crowd the wok) until they are golden brown.\n"
+      "Once golden remove from the wok and drain on kitchen paper towel.\n"
+      "Serve immediately.",
+      timer: "1 hour and 35 minutes"),
+  Recipe(title: "Spaghetti",
+      imgsrc: "https://i.pinimg.com/474x/b3/90/5f/b3905f25c733a31267420b4ae3c40482.jpg",
+  ingredients:
+          "1 pound spaghetti"
+          "2 tablespoon oil"
+          "½ cup butter"
+          "4 cloves garlic - minced"
+          "1 medium onion - chopped finely"
+          "½ pound ground beef"
+          "5 pieces hotdogs - cut into diagonal slices"
+          "1 can (150g) corned beef"
+          "1 medium carrot - cut into small cubes "
+          "1 medium red bell pepper - cut into small cubes"
+          "1 medium green bell pepper - cut into small cubes"
+          "1 can (400g) champignon mushrooms - each piece cut into quarters"
+          "2 cups tomato sauce"
+          "1 cup banana ketchup (tamis anghang)"
+          "1 block (165g) cheese - Eden "
+          "½ tablespoon salt - adjust as needed"
+          "½ teaspoon ground pepper - adjust as needed,",
+    steps:
+      "Cook spaghetti noodles as per package instruction. Drain and set aside."
+      "In a large pot, add oil and butter and cook over medium heat until butter is melted. Once melted, add garlic and onions and cook until tender and fragrant."
+      "Add ground beef and cook while stirring and breaking the lumps until it is no longer pink about 3 minutes."
+      "Add the hotdogs and cook for 2 minutes while stirring and turning them from time to time."
+      "Stir in the corned beef and cook for 1 minute. Add the carrots, bell peppers, and mushrooms. Cook for a minute while stirring to combine."
+      "Pour in the tomato sauce and banana ketchup and season with salt and pepper. Simmer for 5-7 minutes or until the carrots are cooked. You may add a half cup of water if the sauce is getting too thick."
+
+      "Grate half of the block of the cheese on top of the sauce and cook for another 1-2 minutes while stirring to melt the cheese completely."
+      "Add the cooked spaghetti noodles and toss until completely covered in sauce. Transfer in a serving plate and add more grated cheese on top.",
+      timer: "30 minutes"),
+
 
 
 ];
