@@ -40,6 +40,7 @@ class RecipeDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: NestedScrollView(
+         scrollDirection: Axis.vertical,
           headerSliverBuilder: (context,isScrollable){
             return <Widget>[
               SliverAppBar(
@@ -64,7 +65,7 @@ class RecipeDetails extends StatelessWidget {
               ),
               _buildContainer(
                 Text(ingredients,style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 18,
                   color: Colors.black,
                 ),),
               ),
@@ -74,7 +75,7 @@ class RecipeDetails extends StatelessWidget {
               ),
               _buildContainer(
                 Text(timer,style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 18,
                   color: Colors.black,
                 ),),
               ),
@@ -88,8 +89,10 @@ class RecipeDetails extends StatelessWidget {
                 ),
               ),
               Expanded(child: _buildContainer(
-                  Text(steps,style: TextStyle(fontSize: 20,
-                      color: Colors.black),)
+                  SingleChildScrollView(
+                    child: Text(steps,style: TextStyle(fontSize: 18,
+                        color: Colors.black),),
+                  )
               ),),
 
             ],

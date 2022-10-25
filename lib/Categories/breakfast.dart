@@ -53,23 +53,22 @@ class Breakfast extends StatelessWidget {
                   '▢ sausage casing (or wax paper for skinless)\n',
 
                       steps:
-                    'Put all the ingredients in a bowl, except for the casing, and mix well until fully combined.\n'
-                    ' Cover bowl with a plastic wrap or transfer into a container with a cover. \n'
-                    'Let it marinate in the fridge for at least an hour.\n'
-                    'Close one end of a sausage casing with a knot or tie it with a thin rope or a cooking twine.\n'
-                    'Fill the sausage casing with the meat mixture. Use a funnel if you have one.\n'
-                    'Insert the nozzle of the funnel through the open end of the casing all the way to the closed end.\n '
-                    'Scoop the meat mixture, into the funnel and gently pack into the casing.\n'
-                    'Once filled tie a knot to enclose.\n'
-                    'To create the links tie a rope or twine around it at every about 2-3 inches interval.\n'
-                    'Once in the casing, place them in a tray and put in the fridge for a day or two to dry out. \n'
-                    'Pack them in zip locks or cantainer with lid and can be refrigerated for several days. You can also freeze them for longer storage time.\n'
-                    'To cook, place sausages (uncut) in a skillet.'
-                    'Using a toothpick, prick a hole or two on each sausage then add some water just enough to reach about halfway up the sausages and cook in medium heat.\n'
-                    ' Let it simmer until water is goned.\n'
-                    'Usually, there is no need to add oil since it will have enough from the fats from the sausages itself but add some if needed.\n '
-                    'Cook until browned and sugar has caramelized.\n'
-                    'Transfer to a serving plate and serve with rice.',
+                    '1. Put all the ingredients in a bowl, except for the casing, and mix well until fully combined.\n'
+                    '2.  Cover bowl with a plastic wrap or transfer into a container with a cover. \n'
+                    '3. Let it marinate in the fridge for at least an hour.\n'
+                    '4. Close one end of a sausage casing with a knot or tie it with a thin rope or a cooking twine.\n'
+                    '5. Fill the sausage casing with the meat mixture. Use a funnel if you have one.\n'
+                    '6. Insert the nozzle of the funnel through the open end of the casing all the way to the closed end.\n '
+                    '7. Scoop the meat mixture, into the funnel and gently pack into the casing.\n''Once filled tie a knot to enclose.\n'
+                    '8. To create the links tie a rope or twine around it at every about 2-3 inches interval.\n'
+                    '9.  Once in the casing, place them in a tray and put in the fridge for a day or two to dry out. \n'
+                    '10. Pack them in zip locks or cantainer with lid and can be refrigerated for several days. You can also freeze them for longer storage time.\n'
+                    '11. To cook, place sausages (uncut) in a skillet.'
+                    '12. Using a toothpick, prick a hole or two on each sausage then add some water just enough to reach about halfway up the sausages and cook in medium heat.\n'
+                    '13.  Let it simmer until water is goned.\n'
+                    '14. Usually, there is no need to add oil since it will have enough from the fats from the sausages itself but add some if needed.\n '
+                    '15. Cook until browned and sugar has caramelized.\n'
+                    '16. Transfer to a serving plate and serve with rice.',
                       timer: '5hours and 7 minutes',)));
                 },
                 child: BreakfastGridTile(
@@ -97,17 +96,18 @@ class Breakfast extends StatelessWidget {
                         '▢ Salt and ground black pepper to taste\n'
                         '▢ 3 tablespoons cooking oil' ,
                     steps:
-                    'Combine pork, soy sauce, and juice of 1 lime in a bowl. Mix well and let it stay for 10 minutes.\n'
-                        'Heat the oil in a cooking pot.\n'
-                        'Saute the garlic and onion until the onion gets soft.\n'
-                        'Add the marinated pork (include the remaining marinade). Cook until it pork turns light brown.\n'
-                        'Pour tomato sauce and water. Let boil.\n'
-                        'Add the Knorr Pork Cube. Stir. Cover and cook in low heat for 35 to 40 minutes.\n'
-                        'Add the potato and green peas. Cook for 10 minutes.\n'
-                        'Stir-in the bell peppers. Continue to cook for 5 minutes.\n'
-                        'Add salt and ground black pepper to taste.\n'
-                        'Transfer to a serving plate.\n'
-                        'Serve. Share and enjoy!',
+                        '1. Combine pork, soy sauce, and juice of 1 lime in a bowl. Mix well and let it stay for 10 minutes.\n'
+                        '2. Heat the oil in a cooking pot.\n'
+                        '3. Saute the garlic and onion until the onion gets soft.\n'
+                        '4. Add the marinated pork (include the remaining marinade). Cook until it pork turns light brown.\n'
+                        '5. Pour tomato sauce and water. Let boil.\n'
+                        '6. Add the Knorr Pork Cube. Stir. Cover and cook in low heat for 35 to 40 minutes.\n'
+                        '7. Add the potato and green peas. Cook for 10 minutes.\n'
+
+                        '8. Stir-in the bell peppers. Continue to cook for 5 minutes.\n'
+                        '9. Add salt and ground black pepper to taste.\n'
+                        '10. Transfer to a serving plate.\n'
+                        '11. Serve. Share and enjoy!',
                     timer: '1hour and 12 minutes', )));
                 },
                 child: BreakfastGridTile(
@@ -129,15 +129,15 @@ class Breakfast extends StatelessWidget {
                         '▢ 1/8 cup pineapple juice optional\n'
                         '▢ 1/2 tsp. salt\n',
                     steps:
-                    'Combine the ingredients: brown sugar, food coloring, soy sauce, garlic, pinepple juice and salt in a mixing bowl.\n'
-                        'Put the sliced pork in the bowl and rub the mixture liberally on all sides of the pork.\n'
-                        'You can either use a zip bag and put all the pork and mixture or in a tupperware container for curing the pork.\n'
-                        'Put inside a refrigerator and cure for 2 to 3 days.\n'
-                        'After curing the pork, you can either fry or grill it. '
-                        'Heat at least 4 tablespoons of cooking oil.\n'
-                        'Fry the tocino at least 3 minutes on each sides until browned on medium to high heat or until cooked.\n'
-                        ' Dont overcook because it will become too dry and tough.\n'
-                        'Serve with fried egg and fried rice or java rice',
+                         '1. Combine the ingredients: brown sugar, food coloring, soy sauce, garlic, pinepple juice and salt in a mixing bowl.\n'
+                        '2. Put the sliced pork in the bowl and rub the mixture liberally on all sides of the pork.\n'
+                        '3. You can either use a zip bag and put all the pork and mixture or in a tupperware container for curing the pork.\n'
+                        '4. Put inside a refrigerator and cure for 2 to 3 days.\n'
+                        '5. After curing the pork, you can either fry or grill it. '
+                        '6. Heat at least 4 tablespoons of cooking oil.\n'
+                        '7. Fry the tocino at least 3 minutes on each sides until browned on medium to high heat or until cooked.\n'
+                        '8.  Dont overcook because it will become too dry and tough.\n'
+                        '9. Serve with fried egg and fried rice or java rice',
 
                     timer: '1hour and 20 minutes',)));
                 },
@@ -163,13 +163,13 @@ class Breakfast extends StatelessWidget {
                       '▢ Baking powder\n'
                       '▢ Oil for deep frying' ,
                   steps:''
-                      'Beat the egg and the fish sauce together lightly in a bowl.\n'
-                      'Marinate the chicken with the egg mixture for 30 minutes to 2 hours.\n'
-                      'In a separate bowl, combine the flour, cornstarch, salt, ground black pepper, garlic powder, and baking powder.\n'
-                      ' Heat oil for frying.\n'
-                      'Dip the marinated chicken one at a time into the flour mixture. Shake the chicken slightly to remove excess flour.\n'
-                      'Place the chicken in the heated oil and fry the chicken until golden brown.\n'
-                      'Serve and enjoy with your favorite dipping sauce.\n',
+                      '1. Beat the egg and the fish sauce together lightly in a bowl.\n'
+                      '2. Marinate the chicken with the egg mixture for 30 minutes to 2 hours.\n'
+                      '3. In a separate bowl, combine the flour, cornstarch, salt, ground black pepper, garlic powder, and baking powder.\n'
+                      '4.  Heat oil for frying.\n'
+                      '5. Dip the marinated chicken one at a time into the flour mixture. Shake the chicken slightly to remove excess flour.\n'
+                      '6. Place the chicken in the heated oil and fry the chicken until golden brown.\n'
+                      '7. Serve and enjoy with your favorite dipping sauce.\n',
                   timer: '1 hour and 30 minutes',)));
               },
                 child: BreakfastGridTile(
@@ -192,15 +192,15 @@ class Breakfast extends StatelessWidget {
                           '▢ ¼ teaspoon garlic powder\n'
                           '▢ 2 tablespoons chopped green onions\n',
                     steps:
-                    'Beat the eggs in a large bowl.\n'
-                        ' Add the salt, ground black pepper, and garlic powder.\n'
-                        ' Continue to beat until all the ingredients are well distributed.\n'
-                        'Heat a pan. Melt-in the butter.\n'
-                        'Add the minced onion and tomato. Continue to cook in medium heat until the liquid that came out from the tomato evaporates (about 3 to 5 minutes).\n'
-                        'Gradually pour-in the beaten egg mixture while continuously stirring. Continue to stir until the eggs become firm.\n'
-                        'Transfer to a serving plate. Top with chopped green onions.\n'
-                        'Serve with sinangag and banana ketchup.\n'
-                        'Share and enjoy!\n',
+                        '1.Beat the eggs in a large bowl.\n'
+                        '2. Add the salt, ground black pepper, and garlic powder.\n'
+                        '3.  Continue to beat until all the ingredients are well distributed.\n'
+                        '4. Heat a pan. Melt-in the butter.\n'
+                        '5. Add the minced onion and tomato. Continue to cook in medium heat until the liquid that came out from the tomato evaporates (about 3 to 5 minutes).\n'
+                        '6. Gradually pour-in the beaten egg mixture while continuously stirring. Continue to stir until the eggs become firm.\n'
+                        '7. Transfer to a serving plate. Top with chopped green onions.\n'
+                        '8. Serve with sinangag and banana ketchup.\n'
+                        '9. Share and enjoy!\n',
                     timer: '10 minutes',
                   ),),);
 
@@ -224,16 +224,16 @@ class Breakfast extends StatelessWidget {
                         '▢ salt\n'
                         '▢ fresh cracked black pepper\n' ,
                     steps:
-                    'Dice onions, potatoes, and corned beef and set aside. \n'
-                        'Preheat a large pan over medium heat and add 2 tbsp of butter to melt. Saute diced onion in butter until browned.\n'
-                        'Add diced corned beef and cook it together until corned beef is heated through.\n'
-                        'Add diced potatoes and remaining 2 tbsp of butter. Season with salt and pepper and once butter is melted, stir everything together. Let is saute for a few minutes before mixing again.\n'
-                        'Cook for about 15 minutes but don’t mix too often, so it gets crispy on the bottom before you stir.\n'
-                        'Stir in some chives and parsley and serve.\n'
-                        'To add eggs:'
-                        'Lower the heat to medium-low.\n'
-                        'Make four little wells in cooked hash and crack and egg into each well.\n'
-                        'Season each egg with a some salt and pepper, cover the pan with a lid, and cook until the eggs are cooked as desired. \n',
+                        '1. Dice onions, potatoes, and corned beef and set aside. \n'
+                        '2. Preheat a large pan over medium heat and add 2 tbsp of butter to melt. Saute diced onion in butter until browned.\n'
+                        '3. Add diced corned beef and cook it together until corned beef is heated through.\n'
+                        '4. Add diced potatoes and remaining 2 tbsp of butter. Season with salt and pepper and once butter is melted, stir everything together. Let is saute for a few minutes before mixing again.\n'
+                        '5. Cook for about 15 minutes but don’t mix too often, so it gets crispy on the bottom before you stir.\n'
+                        '6. Stir in some chives and parsley and serve.\n'
+                        '7. To add eggs:'
+                        '8. Lower the heat to medium-low.\n'
+                        '9. Make four little wells in cooked hash and crack and egg into each well.\n'
+                        '9. Season each egg with a some salt and pepper, cover the pan with a lid, and cook until the eggs are cooked as desired. \n',
 
                     timer: '35 minutes', )));
                 },

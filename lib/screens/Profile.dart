@@ -5,7 +5,11 @@ class Profile extends StatelessWidget {
 
 
   @override
-List <Icon> icons = [Icon(Icons.person,color: Color(0xff8FBC8F),), Icon(Icons.settings,color: Color(0xff8FBC8F),), Icon(Icons.chat,color: Color(0xff8FBC8F),), Icon(Icons.logout,color: Color(0xff8FBC8F),),];
+List <Icon> icons = [
+  Icon(Icons.person,color: Color(0xff8FBC8F),),
+    Icon(Icons.settings,color: Color(0xff8FBC8F),),
+    Icon(Icons.chat,color: Color(0xff8FBC8F),),
+    Icon(Icons.logout,color: Color(0xff8FBC8F),),];
   List title=[
     'Person',
     'Settings',

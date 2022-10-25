@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/screens/Profile.dart';
 import 'package:recipe/screens/category.dart';
-import 'package:recipe/screens/favorite.dart';
 import 'package:recipe/screens/home.dart';
 
 
@@ -44,7 +43,6 @@ class _HomeState extends State<Home> {
   List <Widget> screens =<Widget> [
     const Homepage(),
     const CategoryPage(),
-    Favorite(),
     Profile(),
   ];
   @override
@@ -62,8 +60,6 @@ class _HomeState extends State<Home> {
               ),
               BottomNavigationBarItem(icon: Icon(Icons.category),
               label: "Category"),
-              BottomNavigationBarItem(icon: Icon(Icons.favorite),
-                  label: "Favorite"),
               BottomNavigationBarItem(icon: Icon(Icons.person),
                   label: "Profile"),
             ],

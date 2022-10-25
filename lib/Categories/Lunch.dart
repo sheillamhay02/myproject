@@ -49,14 +49,14 @@ class Lunch extends StatelessWidget {
                             '▢  ½ tablespoon soy sauce\n'
                             '▢  ⅛ teaspoon ground black pepper\n',
                         steps:
-                        'Season pork belly slices with salt and pepper. Let it marinate for at least 30 minutes.\n'
-                        'Grill pork belly and chicken liver until well done. Pork skin should be crispy.\n'
-                        'Once grilled, chop the pork belly and chicken liver into small fine pieces.\n'
-                         'In a bowl, combine the chopped meat, onions, lemon juice and chili pepper.\n'
-                        ' Season with soy sauce and pepper.\n'
-                        'Warm it in a pan with a bit of oil if desired. \n'
-                        'Alternatively, heat a sizzling plate and add a some butter or margarine.\n'
-                        'Add the Sisig and serve while still sizzling hote.\n',
+                        '1. Season pork belly slices with salt and pepper. Let it marinate for at least 30 minutes.\n'
+                        '2. Grill pork belly and chicken liver until well done. Pork skin should be crispy.\n'
+                        '3. Once grilled, chop the pork belly and chicken liver into small fine pieces.\n'
+                         '4. In a bowl, combine the chopped meat, onions, lemon juice and chili pepper.\n'
+                        '5. Season with soy sauce and pepper.\n'
+                        '6. Warm it in a pan with a bit of oil if desired. \n'
+                        '7. Alternatively, heat a sizzling plate and add a some butter or margarine.\n'
+                        '8. Add the Sisig and serve while still sizzling hote.\n',
                         timer: '1hour',
                     ),
                     )
@@ -83,14 +83,14 @@ class Lunch extends StatelessWidget {
                             '▢ 2 to 2 1/2 tablespoons fish sauce\n'
                             '▢ 3 tablespoons cooking oil\n',
                         steps:
-                            'Heat the oil in a pan.\n'
-                            'Saute the garlic and onion\n.'
-                            'Once the onion starts to get soft, add the dried fish. Stir.\n'
-                            'Put-in the calabaza squash. Continue to stir fry for 1 minute.\n'
-                            'Pour-in water and bring to a boil. Cover and cook for 5 to 6 minutes or until the water evaporates.\n'
-                            'Stir in the string beans.Cook for 2 minutes in medium heat.\n'
-                            'Add fish sauce and ground black pepper. Cook for 1 to 3 minutes more.\n'
-                            'Tranfer to a serving plate. Share and enjoy!\n',
+                            '1. Heat the oil in a pan.\n'
+                            '2. Saute the garlic and onion\n.'
+                            '3. Once the onion starts to get soft, add the dried fish. Stir.\n'
+                            '4. Put-in the calabaza squash. Continue to stir fry for 1 minute.\n'
+                            '5. Pour-in water and bring to a boil. Cover and cook for 5 to 6 minutes or until the water evaporates.\n'
+                            '6. Stir in the string beans.Cook for 2 minutes in medium heat.\n'
+                            '7. Add fish sauce and ground black pepper. Cook for 1 to 3 minutes more.\n'
+                            '8. Tranfer to a serving plate. Share and enjoy!\n',
                         timer: '30 mins',
                     ),
                     ),
@@ -116,17 +116,17 @@ class Lunch extends StatelessWidget {
                             '▢ 1/2 cup sliced ginger\n'
                             '▢ 8 cloves garlic crushed\n',
                         steps:
-                        'Combine the coconut milk, pork, shrimp paste, ginger, onion, and garlic in a cooking pot. Heat the pot and let boil.\n'
-                        'Once the mixture starts to boil, gently stir to mix the ingredients. \n'
-                          'Cover the pot and simmer for 15 to 20 minutes.\n'
-                        'Make sure to stir once in a while to prevent the ingredients from sticking on the bottom of the cooking pot.\n'
-                        'Add the dried taro leaves. Do not stir. Let it stay until the leaves absorb the coconut milk. \n'
-                        'This takes about 20 to 30 minutes. You can gently push the leaves down so that it can absorb more coconut milk.\n'
-                       'Once the leaves absorb the coconut milk, stir the leaves and then continue to cook for to 10 minutes.\n'
-                        'Pour the coconut cream into the cooking pot.\n'
-                       'Add the red chilies. Stir. Cook for 10 to 12 minutes.\n'
-                        'Transfer to a serving plate. Serve.\n'
-                       'Share and enjoy!',
+                        '1. Combine the coconut milk, pork, shrimp paste, ginger, onion, and garlic in a cooking pot. Heat the pot and let boil.\n'
+                        '2. Once the mixture starts to boil, gently stir to mix the ingredients. \n'
+                          '3. Cover the pot and simmer for 15 to 20 minutes.\n'
+                        '4. Make sure to stir once in a while to prevent the ingredients from sticking on the bottom of the cooking pot.\n'
+                        '5. Add the dried taro leaves. Do not stir. Let it stay until the leaves absorb the coconut milk. \n'
+                        '6. This takes about 20 to 30 minutes. You can gently push the leaves down so that it can absorb more coconut milk.\n'
+                       '7. Once the leaves absorb the coconut milk, stir the leaves and then continue to cook for to 10 minutes.\n'
+                        '8. Pour the coconut cream into the cooking pot.\n'
+                       '9. Add the red chilies. Stir. Cook for 10 to 12 minutes.\n'
+                        '10. Transfer to a serving plate. Serve.\n'
+                       '11. Share and enjoy!',
                         timer: '1hour and 20 minutes')));
                   },
                   child: LunchGridTile(
@@ -150,10 +150,10 @@ class Lunch extends StatelessWidget {
                           '▢ 1 pieces Serrano pepper sliced\n'
                           '▢ 1 cup water optional\n',
                       steps:
-                      'Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil.\n'
-                          'Remove the cover. Stir. Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water. Stir and adjust the heat to low. Cook until the sauce reduces to a quarter (around 50 minutes).\n'
-                          'Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers. Continue cooking in low heat until the sauce thickens (around\n'
-                          'Transfer to a serving plate and serve with warm rice.\n',
+                          '1. Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil.\n'
+                          '2. Remove the cover. Stir. Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water. Stir and adjust the heat to low. Cook until the sauce reduces to a quarter (around 50 minutes).\n'
+                          '3. Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers. Continue cooking in low heat until the sauce thickens (around\n'
+                          '4. Transfer to a serving plate and serve with warm rice.\n',
                       timer: '1 hour',)));
                   },
                   child: LunchGridTile(
@@ -175,12 +175,12 @@ class Lunch extends StatelessWidget {
                             '▢ 2 cups water\n'
                             '▢ Salt to taste\n',
                         steps:
-                        'Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour\n'
-                            'Heat the pot and put-in the marinated pork belly then cook for a few minutes\n'
-                            'Pour remaining marinade including garlic.\n''Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour\n'
-                            'Put-in the vinegar and simmer for 12 to 15 minutes\n'
-                            'Add salt to taste\n'
-                            'Serve hot. Share and enjoy!\n',
+                            '1. Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour\n'
+                            '2. Heat the pot and put-in the marinated pork belly then cook for a few minutes\n'
+                            '3. Pour remaining marinade including garlic.\n''Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour\n'
+                            '4. Put-in the vinegar and simmer for 12 to 15 minutes\n'
+                            '5.Add salt to taste\n'
+                            '6. Serve hot. Share and enjoy!\n',
                         timer: '1 hour and 10 minutes',)));
                   },
                   child: LunchGridTile(
@@ -203,16 +203,16 @@ class Lunch extends StatelessWidget {
                             '▢ 1 onion sliced\n'
                             '▢ 3 tbsp cooking oil\n',
                         steps:
-                        'Place the ampalaya in a large bowl\n'
-                            'Add salt and lukewarm water then leave for 5 minutes\n'
-                            'Place the ampalaya in a cheesecloth then squeeze tightly until all liquid drips\n'
-                            'Heat the pan and place the cooking oil\n'
-                            'Saute the garlic, onion, and tomato\n'
-                            'Add the ampalaya mix well with the other ingredients\n'
-                            'Put-in salt and pepper to taste\n'
-                            'Beat the eggs and pour over the ampalaya then let the eggs cook partially\n'
-                            'Mix the egg with the other ingredients\n'
-                            'Serve hot. Share and Enjoy!\n',
+                           '1. Place the ampalaya in a large bowl\n'
+                            '2. Add salt and lukewarm water then leave for 5 minutes\n'
+                            '3. Place the ampalaya in a cheesecloth then squeeze tightly until all liquid drips\n'
+                            '4. Heat the pan and place the cooking oil\n'
+                            '5. Saute the garlic, onion, and tomato\n'
+                            '6. Add the ampalaya mix well with the other ingredients\n'
+                            '7.Put-in salt and pepper to taste\n'
+                            '8. Beat the eggs and pour over the ampalaya then let the eggs cook partially\n'
+                            '9. Mix the egg with the other ingredients\n'
+                            '10. Serve hot. Share and Enjoy!\n',
                         timer: '30 minutes',)));
                   },
                   child: LunchGridTile(

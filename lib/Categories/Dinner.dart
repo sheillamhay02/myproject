@@ -30,8 +30,8 @@ class Dinner extends StatelessWidget {
                 child: GridView.count(
                 padding: EdgeInsets.all(20),
                 crossAxisCount: 2,
-                mainAxisSpacing: 20,
-                crossAxisSpacing: 20,
+                mainAxisSpacing: 18,
+                crossAxisSpacing: 18,
                 childAspectRatio:(MediaQuery.of(context).size.width / 2/250),
                 children: [
 
@@ -56,14 +56,14 @@ class Dinner extends StatelessWidget {
                           '▢ 1 piece onion chopped\n'
                           '▢ salt and pepper\n',
                           steps:
-                          'In a large pot, bring the water to a boil\n'
-                          'Put in the oxtail followed by the onions and simmer for 2.5 to 3 hrs or until tender (35 minutes if using a pressure cooker)\n'
-                          'Once the meat is tender, add the ground peanuts, peanut butter, and coloring (water from the annatto seed mixture) and simmer for 5 to 7 minutes\n'
-                          'Add the toasted ground rice and simmer for 5 minutes\n'
-                          'On a separate pan, saute the garlic then add the banana flower, eggplant, and string beans and cook for 5 minutes\n'
-                          'Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)\n'
-                          'Add salt and pepper to taste\n'
-                          'Serve hot with shrimp paste. Enjoy!\n',
+                          '1. In a large pot, bring the water to a boil\n'
+                          '2. Put in the oxtail followed by the onions and simmer for 2.5 to 3 hrs or until tender (35 minutes if using a pressure cooker)\n'
+                          '3. Once the meat is tender, add the ground peanuts, peanut butter, and coloring (water from the annatto seed mixture) and simmer for 5 to 7 minutes\n'
+                          '4. Add the toasted ground rice and simmer for 5 minutes\n'
+                          '5. On a separate pan, saute the garlic then add the banana flower, eggplant, and string beans and cook for 5 minutes\n'
+                          '6. Transfer the cooked vegetables to the large pot (where the rest of the ingredients are)\n'
+                              '7. Add salt and pepper to taste\n'
+                              '8. Serve hot with shrimp paste. Enjoy!\n',
                           timer: '2 hours and 30 minutes'),));
                           },
                     child: DinnerGridTile(imgscr: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-para-kare-kare-1200x1200.jpg',
@@ -88,11 +88,11 @@ class Dinner extends StatelessWidget {
                              '▢ 1 teaspoon Pepper\n'
                              '▢ 6 – 8 cups water\n',
                          steps:
-                         'Put together in a deep pan onion, tomato, radishes, string beans, shrimp cubes, water and sinigang mix. Bring to a boil.\n'
-                             'Turn the heat down and simmer until the radishes and the string beans are cooked.\n'
-                             'Add the shrimp and green pepper and cook for 5 minutes.\n'
-                             'Turn the heat off and add the water spinach.\n'
-                             'Serve hot with rice.',
+                              '1. Put together in a deep pan onion, tomato, radishes, string beans, shrimp cubes, water and sinigang mix. Bring to a boil.\n'
+                             '2. Turn the heat down and simmer until the radishes and the string beans are cooked.\n'
+                             '3.Add the shrimp and green pepper and cook for 5 minutes.\n'
+                             '4.Turn the heat off and add the water spinach.\n'
+                             '5.Serve hot with rice.',
                          timer: '1 hour')));
                    },
                     child: DinnerGridTile(
@@ -114,13 +114,13 @@ class Dinner extends StatelessWidget {
                                  '▢ 1 cup of water\n'
                                  '▢ 2 tablespoons of salt\n',
                            steps:
-                           'Rub salt onto the fish including the inner cavity\n'
-                               'Heat oil in the cooking pot.\n'
-                               'Put the fish in the cooking pot.\n'
-                               'Pour in water and soy sauce. Boil it.\n'
-                               'Add garlic, peppercorn and bay leaves. Cook it uncovered for  5-7 minutes.\n'
-                               'Pour in vinegar, cover and re-boil. Cook in medium heat for 10 to 15 minutes and until the liquid reduces.\n'
-                               'Serve your Fish adobo and enjoy eating.\n',
+                               '1. Rub salt onto the fish including the inner cavity\n'
+                               '2. Heat oil in the cooking pot.\n'
+                               '3. Put the fish in the cooking pot.\n'
+                               '4. Pour in water and soy sauce. Boil it.\n'
+                               '5. Add garlic, peppercorn and bay leaves. Cook it uncovered for  5-7 minutes.\n'
+                               '6. Pour in vinegar, cover and re-boil. Cook in medium heat for 10 to 15 minutes and until the liquid reduces.\n'
+                               '7. Serve your Fish adobo and enjoy eating.\n',
                            timer: "40 minutes")));
                      },
                      child: DinnerGridTile(
@@ -142,11 +142,11 @@ class Dinner extends StatelessWidget {
                               '▢ 1/4 cup canola oil\n'
                               '▢ 1 large onion sliced into rings\n',
                           steps:
-                          'In a wide bowl, combine lemon juice, soy sauce, brown sugar, pepper and garlic. Whisk to combine and to dissolve the sugar. Add beef to the marinade and mix or toss to coat every piece of the beef. Let it marinate for at least 30 minutes. (overnight if you are not in a hurry) Drain the beef and set aside remaining marinade for later use.\n'
-                              'Heat a wide pan over medium-high heat and add cooking oil. Add onion rings and cook for about 30 seconds or cook according to preference. Remove onions from oil and set aside.\n'
-                              'Using the same pan with oil fry beef by batches for about 3-5 minutes total. Cook until lightly browned then transfer beef in a plate and set aside.\n'
-                              'Pour-in remaining marinade to the same pan. Simmer over low heat for about 3 minutes stirring once. Return fried beef to the pan and gently stir to combine. Let it simmer for about 5 minutes or until sauce thickens.\n'
-                              'Top with fried onions and cook for another minute. Transfer Bistek Tagalog in a serving dish and serve warm with steamed rice. Enjoy!\n',
+                              '1. In a wide bowl, combine lemon juice, soy sauce, brown sugar, pepper and garlic. Whisk to combine and to dissolve the sugar. Add beef to the marinade and mix or toss to coat every piece of the beef. Let it marinate for at least 30 minutes. (overnight if you are not in a hurry) Drain the beef and set aside remaining marinade for later use.\n'
+                              '2. Heat a wide pan over medium-high heat and add cooking oil. Add onion rings and cook for about 30 seconds or cook according to preference. Remove onions from oil and set aside.\n'
+                              '3. Using the same pan with oil fry beef by batches for about 3-5 minutes total. Cook until lightly browned then transfer beef in a plate and set aside.\n'
+                              '4. Pour-in remaining marinade to the same pan. Simmer over low heat for about 3 minutes stirring once. Return fried beef to the pan and gently stir to combine. Let it simmer for about 5 minutes or until sauce thickens.\n'
+                              '5. Top with fried onions and cook for another minute. Transfer Bistek Tagalog in a serving dish and serve warm with steamed rice. Enjoy!\n',
                           timer:'55 minutes')));
                     },
                     child: DinnerGridTile(imgscr: "https://www.foxyfolksy.com/wp-content/uploads/2019/01/bistek-640.jpg",
@@ -158,25 +158,25 @@ class Dinner extends StatelessWidget {
                           title:'Grilled pusit',
                           imgsrc: 'https://www.lutongpinoyrecipe.com/wp-content/uploads/2020/12/lutong-pinoy-grilled-squid-o2-640x360.jpg',
                           ingredients:
-                              '▢ 1 lb medium size squid'
-                              '▢ 2 large tomato, chopped'
-                              '▢ 1 large onion, chopped'
-                              '▢ 2 stalk green onions, chopped'
-                              '▢ 1 tbsp fish sauce'
-                              '▢ 1/2 cup kalamansi or lemon juice'
-                              '▢ 1/2 cup soy sauce'
-                              '▢ 1 tbsp sugar'
-                              '▢ ground black pepper'
-                              '▢ salt to taste'
-                              '▢ 1 tbsp cooking oil',
+                              '\n▢ 1 lb medium size squid'
+                              '\n▢ 2 large tomato, chopped'
+                              '\n▢ 1 large onion, chopped'
+                              '\n▢ 2 stalk green onions, chopped'
+                              '\n▢ 1 tbsp fish sauce'
+                              '\n▢ 1/2 cup kalamansi or lemon juice'
+                              '\n▢ 1/2 cup soy sauce'
+                              '\n▢ 1 tbsp sugar'
+                              '\n▢ ground black pepper'
+                              '\n▢ salt to taste'
+                              '\n▢ 1 tbsp cooking oil',
                           steps:
-                          'Clean squid by removing the head, ink bag and thin-plastic looking bone. Wash and drain well.\n'
-                              'In a wide bowl, combine soy sauce, kalamansi or lemon juice, sugar and ground pepper. Marinate squid in the refrigerator for at least 2 hours.\n'
-                              'In a small bowl, combine fish sauce, salt, onion, tomatoes and green onions.\n'
-                              'Remove squid and drain.\n'
-                              'Stuff the marinated squid with onion-tomato mixture.\n'
-                              'Grill stuffed squid over hot charcoal for about 3-4 minutes on each side, regularly basting with oil.\n'
-                              'Transfer in a serving plate and serve hot with dipping sauce (combination of fish sauce, kalamansi juice, chopped tomatoes minced and chopped onions). Enjoy!\n' ,
+                              '1.Clean squid by removing the head, ink bag and thin-plastic looking bone. Wash and drain well.\n'
+                              '2. In a wide bowl, combine soy sauce, kalamansi or lemon juice, sugar and ground pepper. Marinate squid in the refrigerator for at least 2 hours.\n'
+                              '3. In a small bowl, combine fish sauce, salt, onion, tomatoes and green onions.\n'
+                              '4. Remove squid and drain.\n'
+                              '5. Stuff the marinated squid with onion-tomato mixture.\n'
+                              '6. Grill stuffed squid over hot charcoal for about 3-4 minutes on each side, regularly basting with oil.\n'
+                              '7. Transfer in a serving plate and serve hot with dipping sauce (combination of fish sauce, kalamansi juice, chopped tomatoes minced and chopped onions). Enjoy!\n' ,
                           timer: '55 minutes')));
                     },
                     child: DinnerGridTile(
@@ -207,17 +207,17 @@ class Dinner extends StatelessWidget {
                               '▢ 2 to 4 cups water\n'
                               '▢ Salt and ground black pepper to taste\n',
                           steps:
-                          'Heat oil in a pan. Once the oil gets hot, start to pan fry the potato and carrots. Continue until all sides turns light brown. Set aside.\n'
-                              'Heat the remaining oil (add more if needed). Add the pork liver and then stir fry for 30 seconds. Add ground ginger. Continue to stir-fry for 2 minutes. Set aside.\n'
-                              'Pour 3 tablespoons of cooking oil into a cooking pot. Once the oil turns hot, saute garlic and onion.\n'
-                              'Once the onion becomes soft and translucent, add the pork. Saute until light brown.\n'
-                              'Put the hotdogs into the pot. Cook for 1 minute.\n'
-                              'Pour soy sauce, tomato sauce, and water into the pot.\n'
-                              'Add Knorr Pork Cube. Stir.\n'
-                              'Add raisins and dried bay leaves. Stir.Cover the pot and continue to boil between low to medium heat for 45 to 60 minutes, or until the pork is tender.\n'
-                              'Add the pan fried potato and carrots, liver, along with salt and ground black pepper. Stir and cook for 3 minutes.\n'
-                              'Transfer to a serving plate. Serve.\n'
-                              'Share and enjoy!\n',
+                             '1. Heat oil in a pan. Once the oil gets hot, start to pan fry the potato and carrots. Continue until all sides turns light brown. Set aside.\n'
+                              '2. Heat the remaining oil (add more if needed). Add the pork liver and then stir fry for 30 seconds. Add ground ginger. Continue to stir-fry for 2 minutes. Set aside.\n'
+                              '3. Pour 3 tablespoons of cooking oil into a cooking pot. Once the oil turns hot, saute garlic and onion.\n'
+                              '4. Once the onion becomes soft and translucent, add the pork. Saute until light brown.\n'
+                              '5. Put the hotdogs into the pot. Cook for 1 minute.\n'
+                              '6. Pour soy sauce, tomato sauce, and water into the pot.\n'
+                              '7. Add Knorr Pork Cube. Stir.\n'
+                              '8.Add raisins and dried bay leaves. Stir.Cover the pot and continue to boil between low to medium heat for 45 to 60 minutes, or until the pork is tender.\n'
+                              '9. Add the pan fried potato and carrots, liver, along with salt and ground black pepper. Stir and cook for 3 minutes.\n'
+                              '10. Transfer to a serving plate. Serve.\n'
+                              '11. Share and enjoy!\n',
                           timer: '1 hour and 10 minutes')));
                     },
                     child: DinnerGridTile(

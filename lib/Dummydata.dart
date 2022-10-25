@@ -5,34 +5,36 @@ List<Recipe> recipedetails=[
   const Recipe(
     title:'Longganisa',
     imgsrc: 'https://i.pinimg.com/564x/e9/ff/0a/e9ff0a93a948a22d84af5171bb5fdb02.jpg',
-    ingredients: '1 kilogram ground pork - 20%-30% fat\n'
-          '½ cup brown sugar - or more\n'
-          '1 head garlic - finely chopped\n'
-            '1 tablespoon soy sauce \n'
-            '1000 mg Ascorbic Acid - crushed and dissolved in 1 Tbsp cold water\n'
-           ' 1 tablespoon salt\n'
-           ' 3 tablespoons coconut vinegar \n'
-            '1 teaspoon ground pepper \n'
-            '1 tablespoon paprika powder -optional\n'
-            'sausage casing (or wax paper for skinless)\n',
+    ingredients:
+          '\n1 kilogram ground pork - 20%-30% fat'
+          '\n½ cup brown sugar - or more'
+          '\n1 head garlic - finely chopped'
+            '\n1 tablespoon soy sauce '
+            '\n1000 mg Ascorbic Acid - crushed and dissolved in 1 Tbsp cold water'
+           ' \n1 tablespoon salt'
+           ' \n3 tablespoons coconut vinegar '
+            '\n1 teaspoon ground pepper '
+            '\n1 tablespoon paprika powder -optional'
+            '\nsausage casing (or wax paper for skinless)',
 
-    steps: 'Put all the ingredients in a bowl, except for the casing, and mix well until fully combined.\n'
-        ' Cover bowl with a plastic wrap or transfer into a container with a cover. \n'
-        'Let it marinate in the fridge for at least an hour.\n'
-        'Close one end of a sausage casing with a knot or tie it with a thin rope or a cooking twine.\n'
-        'Fill the sausage casing with the meat mixture. Use a funnel if you have one.\n'
-        'Insert the nozzle of the funnel through the open end of the casing all the way to the closed end.\n '
-        'Scoop the meat mixture, into the funnel and gently pack into the casing.\n'
-        'Once filled tie a knot to enclose.\n'
-        'To create the links tie a rope or twine around it at every about 2-3 inches interval.\n'
-        'Once in the casing, place them in a tray and put in the fridge for a day or two to dry out. \n'
-        'Pack them in zip locks or cantainer with lid and can be refrigerated for several days. You can also freeze them for longer storage time.\n'
-        'To cook, place sausages (uncut) in a skillet.'
-        'Using a toothpick, prick a hole or two on each sausage then add some water just enough to reach about halfway up the sausages and cook in medium heat.\n'
-       ' Let it simmer until water is goned.\n'
-        'Usually, there is no need to add oil since it will have enough from the fats from the sausages itself but add some if needed.\n '
-        'Cook until browned and sugar has caramelized.\n'
-         'Transfer to a serving plate and serve with rice.',
+    steps:
+        '\nPut all the ingredients in a bowl, except for the casing, and mix well until fully combined.'
+        ' \nCover bowl with a plastic wrap or transfer into a container with a cover. '
+        '\nLet it marinate in the fridge for at least an hour.'
+        '\nClose one end of a sausage casing with a knot or tie it with a thin rope or a cooking twine.'
+        '\nFill the sausage casing with the meat mixture. Use a funnel if you have one.'
+        '\nInsert the nozzle of the funnel through the open end of the casing all the way to the closed end. '
+        '\nScoop the meat mixture, into the funnel and gently pack into the casing.'
+        '\nOnce filled tie a knot to enclose.'
+        '\nTo create the links tie a rope or twine around it at every about 2-3 inches interval.'
+        '\nOnce in the casing, place them in a tray and put in the fridge for a day or two to dry out.'
+        '\nPack them in zip locks or cantainer with lid and can be refrigerated for several days. You can also freeze them for longer storage time.'
+        '\nTo cook, place sausages (uncut) in a skillet.'
+        '\nUsing a toothpick, prick a hole or two on each sausage then add some water just enough to reach about halfway up the sausages and cook in medium heat.'
+       ' \nLet it simmer until water is goned.'
+        '\nUsually, there is no need to add oil since it will have enough from the fats from the sausages itself but add some if needed.'
+        '\nCook until browned and sugar has caramelized.'
+         '\nTransfer to a serving plate and serve with rice.',
     timer: '5hours and 7 minutes',
   ),
   Recipe(
@@ -647,7 +649,6 @@ ingredients:
       "Place the pie dough on a floured surface or on a rolling mat and roll it out thinly to a 14-inch round sheet. Gently fold the round dough sheet in half and then in a quarter. Place the dough on a 9-inch pie form with the pointed part exactly at the middle. Unfold the pie dough and gently fit dough into bottom and sides of the plate without tearing it. Using kitchen shears, trim dough to a 1-inch overhang; fold under, and press gently to seal. Crimp edges if desired. Refrigerate 30 minutes to an hour.\n"
       "Preheat oven to 350°F/170°C."
       "In a large mixing bowl, combine and whisk the 3 eggs and the separated egg yolk. Gradually add the condensed milk while whisking. Add the vanilla extract and continue whisking until all ingredients are well combined. Add the evaporated milk and all-purpose cream and mix well with other ingredients.\n"
-
       "In a separate bowl, beat the egg white using an electric mixer until it forms soft peaks. Fold the beaten egg white into the mixture. (The beaten egg white will give the top of the egg pie a brown color after baking.)\n"
       "Pour the filling on the refrigerated pie crust and bake on the lowest rack for 15 minutes at 350°F/170°C then lower the heat to 325°F/160°C and continue baking for 30-40 minutes or until the toothpick inserted in the filling comes out clean.\n",
       timer: "1 hour and 15 minutes"),
@@ -746,7 +747,151 @@ ingredients:
       "Grate half of the block of the cheese on top of the sauce and cook for another 1-2 minutes while stirring to melt the cheese completely."
       "Add the cooked spaghetti noodles and toss until completely covered in sauce. Transfer in a serving plate and add more grated cheese on top.",
       timer: "30 minutes"),
+  Recipe(
+      title: "Bread Roll",
+      imgsrc: "https://i0.wp.com/www.angsarap.net/wp-content/uploads/2013/02/ham-and-cheese-bread-rolls.jpg?ssl=1g",
+      ingredients:
+      "7 pieces Ham\n"
+      "7 pieces Bread Loaf Slice\n"
+      "3/4 cup Bread Crumbs\n"
+      "2 pieces Egg\n"
+      "80 grams Cheese\n"
+      "Water for sealing\n"
+      "Cooking Oil for deep fried\n",
+      steps:
+      "Flatten bread slices using a rolling pin.\n"
+      "Layer in cheese slices and a piece of hotdog on the bottom edge of the bread.\n"
+      "Roll the bread and filling to the top edge.\n"
+      "Wet the top edge of the bread with water to seal it.\n"
+      "Soak hotdog rolls in the beaten eggs.\n"
+      "Coat it with bread crumbs.\n"
+      "Heat oil for deep frying.\n"
+      "Deep fry hotdog rolls until they turn golden brown in color.\n"
+      "Drain from excess oil using a paper towel.\n"
+      "Plate, serve and enjoy.\n",
 
+      timer: "15 minutes"
+  ),
+Recipe(
+    title: "Hawaiian Pizza", imgsrc: "data:image/jpeg;base64,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",
+    ingredients:
+          "Pizza Dough\n"
+          "3.5 g (½ sachet) dried yeast\n"
+          "½ tsp sugar\n"
+          "125 ml lukewarm water (not hot)\n"
+          "200 g plain flour All-purpose is good enough, plus extra to dust\n"
+          "1 tsp salt\n"
+          "1½ tbsps. olive oil\n"
+
+          "For the Topping\n"
+          "125 g (Tomato) sauce\n"
+          "170 g shredded  cheese\n"
+          "75 g sliced ham cut into smaller pieces\n"
+          "80 g pineapple chunks canned \n"
+    ,
+    steps:
+          "1. Whisk yeast sugar and water in a jug. Stand for 5 minutes or until frothy.\n"
+          "2. Place flour and salt in a large bowl. Make a well in the centre. Pour in the yeast mixture and oil.\n"
+          "3. Using your hands, mix the dough until it comes together and is smooth.\n"
+          "4. Turn out onto a lightly floured work surface and knead for 2/3 minutes\n"
+          "5. Make the kneaded dough into a ball and place it in a lightly oiled bowl turning the dough around to lightly cover the whole surface with the oil and cover with cling wrap.\n"
+          "6. Set aside in a warm place to rise for 30 minutes to an hour until it doubles in size.\n"
+          "7. Turn dough out onto a lightly floured surface and knead gently for another 5/8 minutes or until smooth.\n"
+          "8. Cover with a damp clean tea towel and allow to rest for 30 mins\n"
+          "9. Preheat the oven to 475°F (245°C). Gas Mark9 and place the oven rack on the lowest shelf. Place a large flat upturned baking tray on the rack to heat up. (Needs to be large enough to hold your Pizza)\n"
+          "10. Once the dough has rested knock it with your fists to knock the air out of it and roll out pizza base on a floured surface to the desired size to about 1cm thick\n"
+          "11. Line another flat up-turned baking tray with a sheet of baking parchment (this will make it easier to transfer to the oven) and sprinkle it with flour\n"
+          "12. Place the rolled out pizza dough onto the baking tray and using your fists gently push from the centre out to produce a rim all around the outer edge, the centre of the pizza should be about 5mm thick and the rim about 1cm\n"
+          "13. To prevent the pizza toppings from making your pizza crust soggy, brush the shaped dough lightly with olive oil.\n"
+          "14. Using your fingers, gently make indentations into the surface of the dough, this will prevent bubbling\n"
+          "15. Top the dough evenly with Pomodoro sauce, then add the cheese, ham, pineapple and a sprinkling of oregano if desired\n"
+          "16. Open the oven and slide the oven rack with the heated baking tray out, now carefully slide the baking parchment with your pizza on onto the heated baking tray\n"
+          "17. Bake pizza for 12-15 minutes until the crust is golden brown and the cheese is melted and bubbling.\n"
+          "18. Slice hot pizza and serve immediately.\n",
+    timer: "1 hour and 45 minutes"
+),
+
+
+  Recipe(title: "Melon Juice",
+      imgsrc:"https://i.pinimg.com/564x/5a/09/29/5a09295017c7a2be59c718a2503e8e62.jpg",
+      ingredients:
+      "1 medium sized melon\n"
+      "1.5 litres water\n"
+      "1 large can evaporated milk (Optional)\n"
+      "sugar (according to desired sweetness, Filipinos love it sweet)\n"
+      "ice cubes\n",
+      steps:
+        "Cut melon in half; remove the middle part with seeds.\n"
+        "Scrape melon meat and place it in a large pitcher.\n"
+        "Pour in the water and evaporated milk.\n"
+        "Stir in sugar and ice.\n",
+      timer: "10 minutes"),
+
+  Recipe(
+      title: "Milk Tea",
+      imgsrc:"https://i.pinimg.com/564x/cb/5b/c7/cb5bc7ccd1eb639695179fb548f71a90.jpg" ,
+      ingredients:
+          "½ cup black tapioca pearl\n"
+          "400 ml water for boiling the pearl\n"
+          "1 tbsp honey\n"
+          "4 black tea bag\n"
+          "2 cups hot water\n"
+          "2 tbsp condensed milk\n"
+          "½ cup whole milk\n"
+          "ice cubes\n",
+      steps:
+          " Prepare the tapioca pearl\n"
+          "1. Bring a small pot of water to boil, add the tapioca pearl. Stir well to prevent them from sticking together. Cook them for at least 5-7 minutes.\n"
+          "2. Drain and rinse with cold water. Transfer in a small bowl and mix it with honey.\n"
+          " Prepare the tea\n"
+          "3. Add the tea bags to the hot boiled water. Stir well to combine and steep until the water reaches room temperature. Remember to use strong black tea.\n"
+          "4. Assembling the Bubble Milk Tea\n"
+          "5. Get the glasses and put about 2 tablespoonful of tapioca pearl. Add the condensed milk, then pour the tea until half full.\n"
+          "6. Lastly, pour the milk and add some ice cubes. Serve with large straw and enjoy this relaxing drinks.\n",
+      timer: "22 minutes"),
+Recipe(
+    title: "Sago Gulaman",
+    imgsrc: "https://i.pinimg.com/564x/44/89/80/4489801d76c0ea7913d4ff8942e3a0ff.jpg",
+    ingredients:
+    "Gulaman\n"
+      "3  cups water\n"
+      "¼  cup brown sugar\n"
+      "1 pack 25g red gulaman, unflavored\n"
+      "Sago\n"
+      "4-5 cups water\n"
+      "⅓ cup sago pearls\n"
+      "1 tsp vanilla (optional)\n"
+      "Juice\n"
+      "1 cup brown sugar\n"
+      "3 ⅓ cups water\n",
+
+    steps:
+    "Gulaman\n"
+    "1. In a pan over low heat, add 3 cups of water and 14 cups of brown sugar, and stir until the sugar is dissolved\n"
+    "2. Add unflavored gulaman and stir for  3-5 mins or until frothy.\n"
+    "3. Turn off the heat and pour into a glass container, and cool for 20 minutes. Gulaman should be solidified like jello.  Then slice into small cubes .\n"
+
+    "Sago\n"
+    "4. In a pot over medium heat, add 4 cups of water (add 1 more cup if needed), and bring to a boil.  Add ⅓ cup sago pearls and cook until sago pearls are tender and translucent.\n"
+    "5. Using a strainer, separate the sago and hot water.  Then pour cold water on the sago to avoid sticking.  Set aside.\n"
+    "Juice\n"
+    "6. In a pan over low heat, add 1 cup brown sugar and caramelized sugar, make sure to keep an eye and stir, so the sugar does not stick to the pan.\n"
+    "7. Once it is caramelized, carefully pour in 3 ⅓ cups of water and stir until it is well combined. Make sure that the caramelized sugar does not burn because it will give a bitter flavor. Allow it to cool for  20 minutes.\n"
+    "",
+    timer: "30 minutes"),
+  Recipe(
+      title: "Calamansi Juice", imgsrc: "https://simplybakings.com/wp-content/uploads/2020/05/Calamansi-Drink-2.jpg",
+      ingredients:
+      "▢ ¼ cup fresh calamansi juice\n"
+      "▢ 3 tablespoon organic sugar\n"
+      "▢ 1 liter water\n"
+      "▢ ice cubes\n",
+      steps:
+      "▢ Wash calamansi thoroughly, slice calamansi, squeeze juice into a glass container and remove seeds.\n"
+      "▢ 3 tablespoon sugar in 1 liter of water.\n"
+      "▢ Add ¼ cup fresh calamansi juice.\n"
+      "▢ Add ice cubes or keep refrigerated and best served cold.\n",
+      timer: "15 minutes"),
 
 
 ];
