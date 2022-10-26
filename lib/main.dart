@@ -43,7 +43,8 @@ class _HomeState extends State<Home> {
   List <Widget> screens =<Widget> [
     const Homepage(),
     const CategoryPage(),
-    Profile(),
+    ProfilePage(),
+
   ];
   @override
   Widget build(BuildContext context) {
@@ -69,8 +70,7 @@ class _HomeState extends State<Home> {
             currentIndex: selectedIndex,
             onTap: onItemTapped,
           ),
-          
-        ),
+                ),
     );
     
   }
