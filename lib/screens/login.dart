@@ -2,21 +2,21 @@ import 'package:flutter/material.dart';
 import 'package:recipe/main.dart';
 import 'package:recipe/screens/signup.dart';
 
-class Logout extends StatefulWidget {
+class LoginPage extends StatefulWidget {
   static const String routeName = '/login';
 
   static Route route() {
     return MaterialPageRoute(
       settings: RouteSettings(name: routeName),
-      builder: (context) => Logout(),
+      builder: (context) => LoginPage(),
     );
   }
 
   @override
-  State<Logout> createState() => _LoginPageState();
+  State<LoginPage> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<Logout>{
+class _LoginPageState extends State<LoginPage>{
   bool _isVisible = false;
   bool _isPasswordEightCharacters = false;
   bool _hasPasswordNumber = false;
@@ -42,7 +42,17 @@ class _LoginPageState extends State<Logout>{
     return Scaffold(
       resizeToAvoidBottomInset: false,
       backgroundColor: Color(0xff89B48C),
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Color(0xff89B48C),
+        leading: IconButton(onPressed: () {Navigator.pop(context);
+        },
+          icon: Icon(Icons.arrow_back_ios,
+            size: 20,
+            color: Colors.black,),
 
+        ),
+      ),
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: double.infinity,
@@ -180,23 +190,20 @@ class _LoginPageState extends State<Logout>{
   }
 }
 
-Widget inputFile ({label, obscureText = false}) {
+Widget inputFile ({label, obscureText = false})
+{
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
-    children: <Widget>[
+    children: <Widget> [
 
-      Text(label, style: TextStyle(
-          fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black87),
+      Text(label,style: TextStyle(fontSize: 15, fontWeight: FontWeight.w400, color: Colors.black87),
       ),
 
       SizedBox(height: 5,),
       TextField(obscureText: obscureText,
-        decoration: InputDecoration(contentPadding: EdgeInsets.symmetric(
-            vertical: 0, horizontal: 10),
-          enabledBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: Colors.black),),
-          border: OutlineInputBorder(
-            borderSide: BorderSide(color: Colors.black),),
+        decoration: InputDecoration(contentPadding: EdgeInsets.symmetric(vertical: 0, horizontal: 10),
+          enabledBorder: OutlineInputBorder (borderSide: BorderSide(color: Colors.black),),
+          border: OutlineInputBorder(borderSide: BorderSide(color: Colors.black),),
         ),
       ),
       SizedBox(height: 10,)

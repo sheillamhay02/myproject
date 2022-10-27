@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/screens/Profile.dart';
+import 'package:recipe/screens/SplashScreen.dart';
 import 'package:recipe/screens/category.dart';
 import 'package:recipe/screens/home.dart';
+import 'package:recipe/screens/login.dart';
+import 'package:recipe/screens/signup.dart';
 
 
 
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const Home(),
+      home:  SplashScreen(),
     );
   }
 }
@@ -75,3 +78,8 @@ class _HomeState extends State<Home> {
     
   }
 }
+
+
+
+
+

@@ -42,15 +42,6 @@ class Homepage extends StatelessWidget {
                   color: Colors.black,
                 ),
                 ),
-                GestureDetector(
-                  onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=>ProfilePage()));
-                  },
-                  child: CircleAvatar(radius: 30,
-                      backgroundImage: NetworkImage(
-                          'https://images.unsplash.com/photo-1609582848349-215e8bf397d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60'),
-                  ),
-                ),
               ],
             ),
           ),
@@ -278,11 +269,11 @@ class Homepage extends StatelessWidget {
                         '▢ 1 pint evaporated milk\n'
                         '▢ 1 tablespoon vanilla\n',
                     steps:
-                       '1. For the caramel sauce, combine the sugar and water in a heated pan. Stir until it becomes caramelized. Pour the caramel sauce onto the llanera or small containers'
-                        '2. For the custard, place the 12 egg yolks, condensed milk, evaporated milk, and vanilla into a blender and blend until all the ingredients are all incorporated.'
-                        '3. Place the custard mixture into the llanera or small containers. In a pre-heated oven at 375 degrees, bake the leche flan for about an hour. You can opt to steam your leche flan for about 20 to 30 minutes.'
-                        '4. Once this is through, let the leche flan cool for about 15 minutes'
-                        '5. Put the leche flan on a serving plate and top it the caramel sauce',
+                       '1. For the caramel sauce, combine the sugar and water in a heated pan. Stir until it becomes caramelized. Pour the caramel sauce onto the llanera or small containers\n'
+                        '2. For the custard, place the 12 egg yolks, condensed milk, evaporated milk, and vanilla into a blender and blend until all the ingredients are all incorporated.\n'
+                        '3. Place the custard mixture into the llanera or small containers. In a pre-heated oven at 375 degrees, bake the leche flan for about an hour. You can opt to steam your leche flan for about 20 to 30 minutes.\n'
+                        '4. Once this is through, let the leche flan cool for about 15 minutes\n'
+                        '5. Put the leche flan on a serving plate and top it the caramel sauce\n',
                     timer: '55 minutes',)));
                 },
                 child: RecipeCard(
