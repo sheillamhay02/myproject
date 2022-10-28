@@ -1,9 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:recipe/Profil/Log%20Out.dart';
-import 'package:recipe/main.dart';
-import 'package:recipe/screens/login.dart';
 import 'package:recipe/screens/welcome.dart';
 class SplashScreen extends StatelessWidget {
   static const String routeName = '/splash';

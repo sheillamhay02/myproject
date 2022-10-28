@@ -7,7 +7,6 @@ import 'package:recipe/Categories/Snack.dart';
 import 'package:recipe/Categories/breakfast.dart';
 import 'package:recipe/Recipedata/RecipeDetails.dart';
 import 'package:recipe/cards/RecipeCard.dart';
-import 'package:recipe/screens/Profile.dart';
 
 import '../cards/meal_type_card.dart';
 

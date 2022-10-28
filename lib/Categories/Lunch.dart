@@ -10,6 +10,7 @@ class Lunch extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff89B48C),
       appBar: AppBar(
+        title: Text("Lunch Recipes"),
         actions: [],
       ),
       body:  Column(
@@ -18,10 +19,10 @@ class Lunch extends StatelessWidget {
           Container(
             padding: EdgeInsets.fromLTRB(20, 30, 0, 10),
             child: Text(
-              'Lunch Recipes',
+              'Always Have The Appetite For Lunch !',
               style: TextStyle(
                 fontSize: 50,
-                fontWeight: FontWeight.bold,
+                fontFamily: "DancingScript",
                 color: Colors.black,
               ),
             ),

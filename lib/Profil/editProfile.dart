@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:recipe/Profil/Setting.dart';
-import 'package:recipe/Profil/editProfile.dart';
 import 'package:recipe/main.dart';
+import 'package:recipe/screens/Profile.dart';
 
-class MyAccount extends StatelessWidget {
-  MyAccount({Key? key}) : super(key: key);
+class EditProfile extends StatelessWidget {
+   EditProfile({Key? key}) : super(key: key);
 
   bool showPassword = false;
   @override
@@ -12,12 +12,6 @@ class MyAccount extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xff89B48C),
       appBar: AppBar(
-        title: Text("My Account",
-        style: TextStyle(
-          color: Colors.black,
-          fontWeight:FontWeight.bold,
-
-        ),),
         backgroundColor: Colors.green,
         elevation: 1,
         leading: IconButton(
@@ -29,7 +23,18 @@ class MyAccount extends StatelessWidget {
             Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
           },
         ),
-        actions: [],
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.settings,
+              color: Colors.green,
+            ),
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => Setting()));
+            },
+          ),
+        ],
       ),
       body: Container(
         padding: EdgeInsets.only(left: 16, top: 25, right: 16),
@@ -40,10 +45,9 @@ class MyAccount extends StatelessWidget {
           child: ListView(
             children: [
               GestureDetector(
-                onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>EditProfile()));
-                  },
+                onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>ProfilePage()));},
                 child: Text(
-                  "Profile",
+                  "Edit Profile",
                   style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
                 ),
               ),
@@ -88,14 +92,9 @@ class MyAccount extends StatelessWidget {
                             ),
                             color: Colors.green,
                           ),
-                          child: GestureDetector(
-                            onTap:(){
-                              Navigator.push(context, MaterialPageRoute(builder: (context)=>EditProfile()));
-                            },
-                            child: Icon(
-                              Icons.edit,
-                              color: Colors.white,
-                            ),
+                          child: Icon(
+                            Icons.edit,
+                            color: Colors.white,
                           ),
                         )),
                   ],
@@ -106,12 +105,47 @@ class MyAccount extends StatelessWidget {
               ),
               buildTextField("Full Name", "Sheilla Mhay Malicdem", false),
               buildTextField("E-mail", "sheilamhayMalicdem@gmail.com", false),
-              Container(child: buildTextField("Password", "********", true)),
+              buildTextField("Password", "********", true),
               buildTextField("Location", "San Pablo City", false),
               SizedBox(
                 height: 35,
               ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  OutlinedButton(
+                    style: OutlinedButton.styleFrom(
+                      padding: EdgeInsets.symmetric(horizontal: 50),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)),
+                    ),
+                    onPressed: () {},
+                    child: Text("CANCEL",
+                        style: TextStyle(
+                            fontSize: 14,
+                            letterSpacing: 2.2,
+                            color: Colors.black)),
+                  ),
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.green,
+                      padding: EdgeInsets.symmetric(horizontal: 50),
+                      elevation: 2,
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20)),
+                    ),
+                    onPressed: () {},
 
+                    child: Text(
+                      "SAVE",
+                      style: TextStyle(
+                          fontSize: 14,
+                          letterSpacing: 2.2,
+                          color: Colors.white),
+                    ),
+                  )
+                ],
+              )
             ],
           ),
         ),

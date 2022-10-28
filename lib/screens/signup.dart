@@ -2,7 +2,32 @@ import 'package:flutter/material.dart';
 import 'package:recipe/main.dart';
 import 'package:recipe/screens/login.dart';
 
-class SignupPage extends StatelessWidget {
+class SignupPage extends StatefulWidget {
+  @override
+  State<SignupPage> createState() => _SignupPageState();
+}
+
+class _SignupPageState extends State<SignupPage> {
+  bool _isVisible = false;
+
+  bool _isPasswordEightCharacters = false;
+
+  bool _hasPasswordNumber = false;
+
+  onPasswordChanged(String password) {
+    final numericRegex = RegExp(r'[0-9]');
+    setState(() {
+      _isPasswordEightCharacters = false;
+      if(password.length >=8)
+        _isPasswordEightCharacters = true;
+
+      _hasPasswordNumber = false;
+      if(numericRegex.hasMatch(password))
+        _hasPasswordNumber = true;
+
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,10 +75,88 @@ class SignupPage extends StatelessWidget {
               ),
               Column(
                 children: <Widget>[
-                  inputFile(label: "Username"),
-                  inputFile(label: "Email"),
-                  inputFile(label: "Password", obscureText: true),
-                  inputFile(label: "Confirm Password ", obscureText: true),
+                          TextField(
+                            decoration: InputDecoration(
+                                border: OutlineInputBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                    borderSide: BorderSide(color: Colors.black)
+                                ),
+                                focusedBorder: OutlineInputBorder(
+                                  borderRadius: BorderRadius.circular(10),
+                                  borderSide: BorderSide(color: Colors.black),
+                                ),
+                                hintText: "Username",
+                                contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 20)
+                            ),
+                          ),
+                  SizedBox(height: 10),
+                  TextField(
+                    decoration: InputDecoration(
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(color: Colors.black)
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: BorderSide(color: Colors.black),
+                        ),
+                        hintText: "Email",
+                        contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 20)
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  TextField(
+                    onChanged: (password) => onPasswordChanged(password),
+                    obscureText: !_isVisible,
+                    decoration: InputDecoration(
+                        suffixIcon: IconButton(
+                          onPressed: () {
+                            setState(() {
+                              _isVisible = !_isVisible;
+                            });
+                          },
+                          icon: _isVisible ? Icon(Icons.visibility, color: Colors.black,) :
+                          Icon(Icons.visibility_off, color: Colors.grey,),
+                        ),
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(color: Colors.black)
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: BorderSide(color: Colors.black),
+                        ),
+                        hintText: "Password",
+                        contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 20)
+                    ),
+                  ),
+                  SizedBox(height: 5,),
+                  TextField(
+                    onChanged: (password) => onPasswordChanged(password),
+                    obscureText: !_isVisible,
+                    decoration: InputDecoration(
+                        suffixIcon: IconButton(
+                          onPressed: () {
+                            setState(() {
+                              _isVisible = !_isVisible;
+                            });
+                          },
+                          icon: _isVisible ? Icon(Icons.visibility, color: Colors.black,) :
+                          Icon(Icons.visibility_off, color: Colors.grey,),
+                        ),
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                            borderSide: BorderSide(color: Colors.black)
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(10),
+                          borderSide: BorderSide(color: Colors.black),
+                        ),
+                        hintText: "Confirm Password",
+                        contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 20)
+                    ),
+                  ),
+                  SizedBox(height: 5,),
                 ],
               ),
               Container(
@@ -130,6 +233,8 @@ class SignupPage extends StatelessWidget {
 
     );
   }
+
+
 }
 
 

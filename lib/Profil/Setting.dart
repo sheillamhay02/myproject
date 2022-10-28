@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:recipe/Profil/Log%20Out.dart';
 
 class Setting extends StatelessWidget {
   const Setting({Key? key}) : super(key: key);
@@ -94,9 +95,14 @@ class Setting extends StatelessWidget {
                       borderRadius: BorderRadius.circular(20)),
                 ),
                 onPressed: () {},
-                child: Text("SIGN OUT",
-                    style: TextStyle(
-                        fontSize: 16, letterSpacing: 2.2, color: Colors.black)),
+                child: GestureDetector(
+                  onTap: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Logout()));
+                  },
+                  child: Text("SIGN OUT",
+                      style: TextStyle(
+                          fontSize: 16, letterSpacing: 2.2, color: Colors.black)),
+                ),
               ),
             )
           ],

@@ -26,7 +26,7 @@ class Welcome extends StatelessWidget {
               Column(
                 children: <Widget>[
                   Text(
-                    "Welcome",
+                    " Welcome Foodies !",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 30,
@@ -38,11 +38,12 @@ class Welcome extends StatelessWidget {
                     height: 20,
                   ),
                   Text(
-                    " This application provides Delicious Food Recipe for you",
+                    " This application provides Delicious Food Recipe for you!",
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: Colors.grey[700],
-                      fontSize: 15,
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w900,
 
                     ),)
                 ],
