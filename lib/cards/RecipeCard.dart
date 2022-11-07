@@ -14,9 +14,10 @@ RecipeCard({required this.imgsrc,required this.title,required this.cookTime,requ
         Container(
           margin: EdgeInsets.only(left:20),
           width: 170,
-          child: Image.network(this.imgsrc,
-            fit: BoxFit.cover),
 
+          child: Image.network(
+              this.imgsrc,
+            fit: BoxFit.cover),
         ),
         Positioned(
           bottom: 5,

@@ -892,8 +892,32 @@ Recipe(
       "▢ Add ¼ cup fresh calamansi juice.\n"
       "▢ Add ice cubes or keep refrigerated and best served cold.\n",
       timer: "15 minutes"),
-
-
+  Recipe(
+      title: "Avocado Shake",
+      imgsrc: "https://i.pinimg.com/474x/95/ed/db/95eddb85244c7023926bdaefa4246980.jpg",
+      ingredients:
+      "4 avocados\n"
+      "1/2 cup evaporated milk\n"
+      "1/2 cup cold water\n"
+      "1/2 cup sugar\n"
+      "3 cups ice cubes\n",
+      steps:
+      "With a knife, halve avocados and remove pit. Using a spoon, scoop flesh and cut into cubes.\n"
+      "In a blender, combine avocados, milk, sugar, lemon juice, and ice. Process until smooth and blended.\n"
+      "Do in batches as needed to make processing easier.\n",
+      timer: "5 minutes",
+  ),
+  Recipe(
+      title: "Buko juice ",
+      imgsrc:"https://i.pinimg.com/originals/f5/7b/9c/f57b9c002ba6c57f8267b5f747efabfd.jpg",
+      ingredients:
+      "2 cups young coconut meat (shredded)\n"
+      "4 cups coconut juice\n"
+      "2/3 cup sugar\n",
+      steps:
+      "In a large pitcher, young coconut, coconut juice and sugar. Stir well until sugar is dissolved. Chill in refrigerator until ready to serve.\n"
+      "Serve in tall glasses over ice\n",
+      timer: "10 minutes"),
 ];
 
 

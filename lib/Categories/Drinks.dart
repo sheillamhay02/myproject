@@ -132,7 +132,40 @@ class Drinks extends StatelessWidget {
                           timer: "15 minutes"))));
                     },
                       child: DrinksGridTile(imgscr: "https://simplybakings.com/wp-content/uploads/2020/05/Calamansi-Drink-2.jpg", title: "Calamansi Juice")),
-                  DrinksGridTile(imgscr: "https://i.pinimg.com/564x/b6/69/5e/b6695e206b076a07c8b9088716041989.jpg", title: "Coffee"),
+                  GestureDetector(
+                    onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                      title: "Avocado Shake",
+                      imgsrc: "https://i.pinimg.com/474x/95/ed/db/95eddb85244c7023926bdaefa4246980.jpg",
+                      ingredients:
+                      "4 avocados\n"
+                          "1/2 cup evaporated milk\n"
+                          "1/2 cup cold water\n"
+                          "1/2 cup sugar\n"
+                          "3 cups ice cubes\n",
+                      steps:
+                      "With a knife, halve avocados and remove pit. Using a spoon, scoop flesh and cut into cubes.\n"
+                          "In a blender, combine avocados, milk, sugar, lemon juice, and ice. Process until smooth and blended.\n"
+                          "Do in batches as needed to make processing easier.\n",
+                      timer: "5 minutes",
+                    )));
+                      },
+                      child: DrinksGridTile(imgscr: "https://i.pinimg.com/474x/95/ed/db/95eddb85244c7023926bdaefa4246980.jpg", title: "Avocado Shake")),
+                GestureDetector(
+                  onTap: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
+                        title: "Buko juice ",
+                        imgsrc:"https://i.pinimg.com/originals/f5/7b/9c/f57b9c002ba6c57f8267b5f747efabfd.jpg",
+                        ingredients:
+                            "2 cups young coconut meat (shredded)\n"
+                            "1 cup of evaporated milk\n"
+                            "4 cups coconut juice\n"
+                            "2/3 cup sugar\n",
+                        steps:
+                            "In a large pitcher, young coconut, coconut juice,evaporated milk and sugar. Stir well until sugar is dissolved. Chill in refrigerator until ready to serve.\n"
+                            "Serve in tall glasses over ice\n",
+                        timer: "10 minutes")));
+                  },
+                    child: DrinksGridTile(imgscr: "https://i.pinimg.com/originals/f5/7b/9c/f57b9c002ba6c57f8267b5f747efabfd.jpg", title:"Buko Juice")),
                 ]
             ),
           ),

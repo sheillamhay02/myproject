@@ -28,6 +28,7 @@ class Welcome extends StatelessWidget {
                   Text(
                     " Welcome Foodies !",
                     style: TextStyle(
+                      fontFamily: "DancingScript",
                       fontWeight: FontWeight.bold,
                       fontSize: 30,
 
@@ -41,9 +42,10 @@ class Welcome extends StatelessWidget {
                     " This application provides Delicious Food Recipe for you!",
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: Colors.white,
+                      fontFamily: "DancingScript",
+                      color: Colors.black87,
                       fontSize: 20,
-                      fontWeight: FontWeight.w900,
+
 
                     ),)
                 ],

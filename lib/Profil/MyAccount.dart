@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:recipe/Profil/Setting.dart';
 import 'package:recipe/Profil/editProfile.dart';
 import 'package:recipe/main.dart';
 
@@ -23,7 +22,7 @@ class MyAccount extends StatelessWidget {
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back,
-            color: Colors.green,
+            color: Colors.white,
           ),
           onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe/Profil/MyAccount.dart';
 import 'package:recipe/Profil/Setting.dart';
 import 'package:recipe/main.dart';
 import 'package:recipe/screens/Profile.dart';
@@ -136,12 +137,17 @@ class EditProfile extends StatelessWidget {
                     ),
                     onPressed: () {},
 
-                    child: Text(
-                      "SAVE",
-                      style: TextStyle(
-                          fontSize: 14,
-                          letterSpacing: 2.2,
-                          color: Colors.white),
+                    child: GestureDetector(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>MyAccount()));
+                      },
+                      child: Text(
+                        "SAVE",
+                        style: TextStyle(
+                            fontSize: 14,
+                            letterSpacing: 2.2,
+                            color: Colors.white),
+                      ),
                     ),
                   )
                 ],

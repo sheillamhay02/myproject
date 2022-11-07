@@ -30,14 +30,17 @@ class SplashScreen extends StatelessWidget {
             ),
             Container(
               child: Text('Delicious Food Recipe',
-                style: Theme.of(context).textTheme.titleMedium!.copyWith(color: Colors.black,
+                style: TextStyle(
+              fontSize: 50,
+              fontFamily: "IslandMoments",
+              ),
                 ),
               ),
-            ),
-          ],
-        )
+            ]),
+
+        );
 
 
-    );
+
   }
 }
