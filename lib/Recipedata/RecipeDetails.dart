@@ -24,13 +24,6 @@ class RecipeDetails extends StatelessWidget {
     return Container(
       padding: EdgeInsets.all(10),
       margin: EdgeInsets.all(10),
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10.0),
-          color: Color(0xff89B48C),
-          border: Border.all(
-              color: Colors.grey,
-          )
-      ),
       width: double.infinity,
       child: child,
     );
@@ -39,6 +32,7 @@ class RecipeDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xff89B48C),
       body: NestedScrollView(
          scrollDirection: Axis.vertical,
           headerSliverBuilder: (context,isScrollable){
@@ -65,7 +59,7 @@ class RecipeDetails extends StatelessWidget {
               ),
               _buildContainer(
                 Text(ingredients,style: TextStyle(
-                  fontSize: 18,
+                  fontSize: 15,
                   color: Colors.black,
                 ),),
               ),
@@ -90,7 +84,7 @@ class RecipeDetails extends StatelessWidget {
               ),
               Expanded(child: _buildContainer(
                   SingleChildScrollView(
-                    child: Text(steps,style: TextStyle(fontSize: 18,
+                    child: Text(steps,style: TextStyle(fontSize: 15,
                         color: Colors.black),),
                   )
               ),),

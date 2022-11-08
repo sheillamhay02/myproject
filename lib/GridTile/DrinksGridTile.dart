@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe/screens/favorite.dart';
 
 class DrinksGridTile extends StatelessWidget {
   final String imgscr;
@@ -38,6 +39,16 @@ class DrinksGridTile extends StatelessWidget {
             ),
           ),
         ),
+        Positioned(
+            right: 0,
+            bottom: 0,
+            child: GestureDetector(
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>Favorite()));
+              },
+              child:IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border,size: 45,color: Colors.black87,)),
+            )
+        )
       ],
     );
   }

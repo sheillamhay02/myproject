@@ -47,7 +47,9 @@ class _HomeState extends State<Home> {
   List <Widget> screens =<Widget> [
     const Homepage(),
     const CategoryPage(),
+    Favorite(),
     ProfilePage(),
+
 
 
   ];
@@ -57,6 +59,11 @@ class _HomeState extends State<Home> {
         child: Scaffold(
           backgroundColor: Color(0xff89B48C),
           body: screens[selectedIndex],
+          floatingActionButton: FloatingActionButton(
+            onPressed: (){},
+            child: Icon(Icons.add),
+            backgroundColor: Colors.green,
+          ),
           bottomNavigationBar: BottomNavigationBar(
 
             backgroundColor: Colors.white,
@@ -66,6 +73,8 @@ class _HomeState extends State<Home> {
               ),
               BottomNavigationBarItem(icon: Icon(Icons.category),
               label: "Category"),
+              BottomNavigationBarItem(icon: Icon(Icons.favorite),
+                  label: "Favorites"),
               BottomNavigationBarItem(icon: Icon(Icons.person),
                   label: "Profile"),
             ],

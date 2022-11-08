@@ -201,7 +201,7 @@ class Snacks extends StatelessWidget {
                 onTap: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
                       title: "Hawaiian Pizza",
-                      imgsrc:"",
+                      imgsrc:"https://i.pinimg.com/474x/06/30/57/063057644f2c5ec32aa34e354d09ec54.jpg",
                       ingredients:
                       "Pizza Dough\n"
                           "3.5 g (½ sachet) dried yeast\n"
@@ -239,7 +239,7 @@ class Snacks extends StatelessWidget {
                       timer: "1 hour and 45 minutes"
                   )));
                 },
-                  child: SnacksGridTile(imgscr: "",title: " ",
+                  child: SnacksGridTile(imgscr: "https://i.pinimg.com/474x/06/30/57/063057644f2c5ec32aa34e354d09ec54.jpg",title: "Hawaiian Pizza ",
           ),
           ),
           ],

@@ -132,7 +132,7 @@ class Homepage extends StatelessWidget {
                 onTap:(){
                   Navigator.push(context, MaterialPageRoute(builder: (context)=>RecipeDetails(
                     title: 'Omelette',
-                    imgsrc: 'https://i.pinimg.com/564x/bd/07/f9/bd07f9fd2e4e9af33c4bb06fdbe1ec73.jpg',
+                    imgsrc:"https://i.pinimg.com/474x/01/a1/fd/01a1fd70f39b400747e11141e9df0121.jpg" ,
                     ingredients:
                         '▢ 6 eggs\n'
                         '▢ 2 medium tomatoes minced\n'
@@ -155,10 +155,9 @@ class Homepage extends StatelessWidget {
                     timer: '10 mins', )));
                 },
                 child: RecipeCard(
-                  imgsrc:
-                  'https://i.pinimg.com/564x/bd/07/f9/bd07f9fd2e4e9af33c4bb06fdbe1ec73.jpg',
-                    cookTime: '7 mins',
-                    prepTime: '3 mins',
+                  imgsrc:"https://i.pinimg.com/474x/01/a1/fd/01a1fd70f39b400747e11141e9df0121.jpg",
+                  cookTime:"7 minutes",
+                    prepTime: '3 minutes',
                   title: 'Omelette',
                 ),
               ),
