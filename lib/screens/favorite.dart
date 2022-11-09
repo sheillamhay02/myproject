@@ -5,6 +5,14 @@ class Favorite extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor:  Color(0xff89B48C),
+      appBar: AppBar(
+        title: Text(
+          "Favorite"
+        ),
+        backgroundColor: Colors.green,
+      ),
+    );
   }
 }

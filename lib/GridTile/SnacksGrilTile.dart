@@ -1,3 +1,4 @@
+import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 import 'package:recipe/screens/favorite.dart';
 
@@ -26,7 +27,7 @@ class SnacksGridTile extends StatelessWidget {
               gradient: LinearGradient(
                   begin: Alignment.topCenter
                   ,end: Alignment.bottomCenter,
-                  colors: [Colors.grey.withOpacity(0.15),Color(0xffE4E1DD),]
+                  colors: [Colors.white.withOpacity(0.15),Colors.white,]
               ),
             ),
             child: Text(
@@ -39,14 +40,26 @@ class SnacksGridTile extends StatelessWidget {
             ),
           ),
         ),
-        Positioned(
-            right: 0,
-            bottom: 0,
-            child: GestureDetector(
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Favorite()));
-              },
-              child:IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border,size: 45,color: Colors.black87,)),
+        Container(
+            width: MediaQuery.of(context).size.width,
+            child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  GestureDetector(
+                    onTap:(){
+
+                    },
+                    child: FavoriteButton(
+                      isFavorite: true,
+                       iconDisabledColor: Colors.white,
+                      valueChanged: (_isFavorite) {
+                        print('Is Favorite : $_isFavorite');
+                      },
+                    ),
+                  ),
+
+                ]
             )
         )
       ],

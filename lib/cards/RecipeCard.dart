@@ -1,3 +1,4 @@
+import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 
 class RecipeCard extends StatelessWidget {
@@ -59,11 +60,12 @@ RecipeCard({required this.imgsrc,required this.title,required this.cookTime,requ
                     Icon(Icons.star,size: 20,color: Theme.of(context).primaryColor),
 
                   ],
-                )
+                ),
               ],
             ),
           ),
         )
+
 
       ],
     );

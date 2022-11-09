@@ -1,3 +1,4 @@
+import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 
 class RecipeDetails extends StatelessWidget {
@@ -45,12 +46,16 @@ class RecipeDetails extends StatelessWidget {
                 floating: true,
                 flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: Text(title,style: TextStyle(fontSize: 15,color: Colors.black),),
+                  title: Text(title,style: TextStyle(fontSize: 15,color: Colors.white,backgroundColor: Colors.black,),),
                   background: Image.network(imgsrc,fit: BoxFit.cover,),
+
                 ),
-              )
+              ),
+
             ];
+
           },
+
           body: Column(
             children: [
               Padding(
@@ -85,12 +90,14 @@ class RecipeDetails extends StatelessWidget {
               Expanded(child: _buildContainer(
                   SingleChildScrollView(
                     child: Text(steps,style: TextStyle(fontSize: 15,
-                        color: Colors.black),),
+                        color: Colors.black),
+                    ),
                   )
               ),),
 
             ],
-          )
+          ),
+
       ),
     );
   }
