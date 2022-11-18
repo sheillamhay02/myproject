@@ -68,14 +68,14 @@ class _HomeState extends State<Home> {
 
             backgroundColor: Colors.white,
             items: const[
-              BottomNavigationBarItem(icon: Icon(Icons.home),
+              BottomNavigationBarItem(icon: Icon(Icons.home_outlined),
                 label:'Home'
               ),
-              BottomNavigationBarItem(icon: Icon(Icons.category),
+              BottomNavigationBarItem(icon: Icon(Icons.category_outlined),
               label: "Category"),
-              BottomNavigationBarItem(icon: Icon(Icons.favorite),
+              BottomNavigationBarItem(icon: Icon(Icons.favorite_outline_sharp),
                   label: "Favorites"),
-              BottomNavigationBarItem(icon: Icon(Icons.person),
+              BottomNavigationBarItem(icon: Icon(Icons.person_outline_sharp),
                   label: "Profile"),
             ],
             unselectedItemColor: Theme.of(context).primaryColor,

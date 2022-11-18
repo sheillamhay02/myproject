@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   readmore: ^2.2.0
   favorite_button:
+  form_field_validator: ^1.0.1
 
 
 dev_dependencies:

@@ -6,7 +6,6 @@ import 'package:recipe/Categories/Drinks.dart';
 import 'package:recipe/Categories/Snack.dart';
 import 'package:recipe/Categories/breakfast.dart';
 import 'package:recipe/GridTile/meal_grid_tile.dart';
-
 import '../Categories/Lunch.dart';
 class CategoryPage extends StatelessWidget {
   const CategoryPage({Key? key}) : super(key: key);

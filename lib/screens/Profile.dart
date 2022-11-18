@@ -40,8 +40,8 @@ class ProfilePage extends StatelessWidget {
                   height: 10,
                 ),
                 SizedBox(
-                  width: size.width * .3,
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
                         'Sheilla Mhay ',
