@@ -34,7 +34,7 @@ class DinnerGridTile extends StatelessWidget {
             child: Text(
               this.title,
               style: TextStyle(
-                color: Colors.white,
+                color: Colors.black,
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
               ),
@@ -52,7 +52,7 @@ class DinnerGridTile extends StatelessWidget {
 
                     },
                     child: FavoriteButton(
-                      isFavorite: true,
+                      isFavorite: false,
                        iconDisabledColor: Colors.white,
                       valueChanged: (_isFavorite) {
                         print('Is Favorite : $_isFavorite');

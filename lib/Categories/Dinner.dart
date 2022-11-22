@@ -11,6 +11,7 @@ class Dinner extends StatelessWidget {
             backgroundColor: Color(0xff89B48C),
             appBar: AppBar(
               title: Text("Dinner Recipe"),
+
               actions: [],
             ),
             body:  Column(
@@ -33,7 +34,7 @@ class Dinner extends StatelessWidget {
                 crossAxisCount: 2,
                 mainAxisSpacing: 18,
                 crossAxisSpacing: 18,
-                childAspectRatio:(MediaQuery.of(context).size.width / 2/250),
+                childAspectRatio:(MediaQuery.of(context).size.width / 5/150),
                 children: [
 
                   GestureDetector(
@@ -73,7 +74,7 @@ class Dinner extends StatelessWidget {
                   GestureDetector(
                    onTap: (){
                      Navigator.push(context, MaterialPageRoute(builder: (context)=> RecipeDetails(
-                         title: "Sinigang na Hipon",
+                         title: "Sinigang\n  na Hipon",
                          imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQpTXJiPU8zuqkw88r7XCrii_DV1chRpDhw&usqp=CAU",
                          ingredients:
                               '▢ 2 pounds Shrimps\n'

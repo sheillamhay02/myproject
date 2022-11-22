@@ -33,7 +33,7 @@ class Drinks extends StatelessWidget {
                 crossAxisCount: 2,
                 mainAxisSpacing: 20,
                 crossAxisSpacing: 20,
-                childAspectRatio:(MediaQuery.of(context).size.width / 2/250),
+                childAspectRatio:(MediaQuery.of(context).size.width / 5/150),
                 children: [
                   GestureDetector(
                       onTap:(){

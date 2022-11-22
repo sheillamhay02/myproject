@@ -12,83 +12,90 @@ class CategoryPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment:CrossAxisAlignment.start,
-      children: [
-        Container(
-          padding: EdgeInsets.fromLTRB(20, 30, 0, 10),
-          child: Text(
-              'Category',
-            style: TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-            color: Colors.black,
+    return Scaffold(
+      backgroundColor: Color(0xff89B48C),
+      appBar: AppBar(
+        backgroundColor:Colors.green ,
+        actions: [],
+      ),
+      body: Column(
+        crossAxisAlignment:CrossAxisAlignment.start,
+        children: [
+          Container(
+            padding: EdgeInsets.fromLTRB(20, 30, 0, 10),
+            child: Text(
+                'Category',
+              style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+              ),
             ),
           ),
-        ),
-        Expanded(
-          child: GridView.count(
-            padding: EdgeInsets.all(20),
-          crossAxisCount: 2,
-          mainAxisSpacing: 20,
-          crossAxisSpacing: 20,
-          childAspectRatio:(MediaQuery.of(context).size.width / 2/250),
-          children: [
-            GestureDetector(
-              onTap:(){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Breakfast()));
-              },
-              child: MealGridTile(imgscr:
-              'https://i.pinimg.com/474x/76/31/fe/7631febd622b6efa7531e37c691cb92c.jpg',
-                  title:'Breakfast',),
-            ),
-            GestureDetector(
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Lunch()));
-              },
-              child: MealGridTile(imgscr:
-              'https://i.pinimg.com/474x/52/af/e5/52afe5e533cb182eb259ad0c88861a4a.jpg',
-                title:'Lunch',),
-            ),
-            GestureDetector(
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Dinner()));
-              },
-              child: MealGridTile(imgscr:
-              'https://i.pinimg.com/564x/54/dd/3f/54dd3f58ddb7a169ef86fc87b99212c9.jpg',
-                title:'Dinner',),
-            ),
-            GestureDetector(
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Dessert()));
-              },
-              child: MealGridTile(imgscr:
-              'https://i.pinimg.com/474x/09/0d/d8/090dd83d97deda822ffea3c2b9db206e.jpg',
-                title:'Dessert',),
-            ),
-            GestureDetector(
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Snacks()));
-              },
-              child: MealGridTile(imgscr:
-              'https://i.pinimg.com/474x/82/85/63/82856374068371415eee4fd684e8b897.jpg',
-                title:'Snacks',),
-            ),
-            GestureDetector(
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Drinks()));
-              },
-              child: MealGridTile(imgscr:
-              'https://i.pinimg.com/474x/0e/77/74/0e7774480da18b22a219321bdc3f2c08.jpg',
-                title:'Drinks',),
-            ),
-          ],
-        ),
-        ),
+          Expanded(
+            child: GridView.count(
+              padding: EdgeInsets.all(20),
+            crossAxisCount: 2,
+            mainAxisSpacing: 20,
+            crossAxisSpacing: 20,
+            childAspectRatio:(MediaQuery.of(context).size.width / 2/250),
+            children: [
+              GestureDetector(
+                onTap:(){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Breakfast()));
+                },
+                child: MealGridTile(imgscr:
+                'https://i.pinimg.com/236x/ae/32/e2/ae32e22c6b5df3f63e4ae787cc2b178c.jpg',
+                    title:'Breakfast',),
+              ),
+              GestureDetector(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Lunch()));
+                },
+                child: MealGridTile(imgscr:
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtyAGr4JkA_-dRwgvMvEiL7-RaMvDaRXzCcw&usqp=CAU',
+                  title:'Lunch',),
+              ),
+              GestureDetector(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Dinner()));
+                },
+                child: MealGridTile(imgscr:
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbak4Pors0ZyzixveT6rdvFHAbsnfYKQaylQ&usqp=CAU',
+                  title:'Dinner',),
+              ),
+              GestureDetector(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Dessert()));
+                },
+                child: MealGridTile(imgscr:
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRVlzTLCRc8i99BebjeInWw5FTxbSHV3aZ-w&usqp=CAU',
+                  title:'Dessert',),
+              ),
+              GestureDetector(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Snacks()));
+                },
+                child: MealGridTile(imgscr:
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoDHTM3bzp5nvso0zindsVQvOnwf2BiSiUTQ&usqp=CAU',
+                  title:'Snacks',),
+              ),
+              GestureDetector(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Drinks()));
+                },
+                child: MealGridTile(imgscr:
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Uw4GxlrsOZLckW9kuqyEfqj3Mym0M7ezMQ&usqp=CAU',
+                  title:'Drinks',),
+              ),
+            ],
+          ),
+          ),
 
 
-      ],
+        ],
 
+      ),
     );
   }
 }
